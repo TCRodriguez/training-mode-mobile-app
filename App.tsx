@@ -1,10 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import GamesScreen from './src/screens/Games';
+import CharacterMovesScreen from './src/screens/CharacterMovesScreen';
+import NotesScreen from './src/screens/NotesScreen';
 import SettingsScreen from './src/screens/Settings';
-import { theme } from './src/styles/theme';
+import CogIcon from './assets/icons/CogIcon';
+import DocumentIcon from './assets/icons/DocumentIcon';
+import ListIcon from './assets/icons/ListIcon';
+import FistIcon from './assets/icons/FistIcon';
+import CharacterCombosScreen from './src/screens/CharacterCombosScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -18,17 +21,62 @@ export default function App() {
           headerTitleAlign: 'center',
         }}
       >
-        <Tab.Screen name="Games" component={GamesScreen} />
+        <Tab.Screen
+          name="Moves"
+          options={{
+            tabBarIcon: ({ focused, color, size }) => (
+              <ListIcon
+                width={25}
+                height={25}
+                fill={color}
+              />
+            ),
+          }}
+          component={CharacterMovesScreen}
+        />
+        <Tab.Screen
+          name="Notes"
+          options={{
+            tabBarIcon: ({ focused, color, size }) => (
+              <DocumentIcon
+                width={25}
+                height={25}
+                fill={color}
+              />
+            ),
+          }}
+          component={NotesScreen}
+        />
+        <Tab.Screen
+          name="Combos"
+          options={{
+            tabBarIcon: ({ focused, color, size }) => (
+              <FistIcon
+                width={25}
+                height={25}
+                fill={color}
+              />
+            ),
+          }}
+          component={CharacterCombosScreen}
+        />
         <Tab.Screen
           name="Settings"
-          // options={{
-          //   headerTitle: () => (
-          //     <Image
-          //       source={require('./assets/Training_Mode_Logo.png')}
-          //       style={{ width: 40, height: 40 }}
-          //     />
-          //   )
-          // }}
+          options={{
+            // headerTitle: () => (
+            //   <Image
+            //     source={require('./assets/Training_Mode_Logo.png')}
+            //     style={{ width: 40, height: 40 }}
+            //   />
+            // )
+            tabBarIcon: ({ focused, color, size }) => (
+              <CogIcon
+                width={25}
+                height={25}
+                fill={color}
+              />
+            ),
+          }}
           component={SettingsScreen}
         />
       </Tab.Navigator>
