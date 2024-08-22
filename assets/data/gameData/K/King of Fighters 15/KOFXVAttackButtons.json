@@ -1,0 +1,22 @@
+[
+    {"name": "Light Punch", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "LP", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Light Kick", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "LK", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Heavy Punch", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "HP", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Heavy Kick", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "HK", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    }
+]

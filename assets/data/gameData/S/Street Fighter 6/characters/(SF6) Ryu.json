@@ -1,0 +1,826 @@
+[
+    {
+        "name": "Ryu", 
+        "archetype": "", 
+        "game": "Street Fighter 6", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Hadoken",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shoryuken",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Tatsumaki Senpu-kyaku",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+            "conditions": [""],
+            "zones": [""],
+            "damage": null,
+            "category": "",
+            "type": "Special Moves",
+            "startup_frames": null,
+            "active_frames": null,
+            "recovery_frames": null,
+            "frames_on_hit": null,
+            "frames_on_block": null,
+            "frames_on_counter_hit": null
+            },
+            {
+                "name": "Aerial Tatsumaki Senpu-kyaku",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During a forward jump"],
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "High Blade Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Hashogeki",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Effect changes when in Denjin Charge State"],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Denjin Charge",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shinku Hadoken",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Effect changes when in Denjin Charge State"],
+                "properties": [""],
+                "meter_cost": 1,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shin Hashogeki",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Hold the button to change effect", "Effect changes when in Denjin Charge State"],
+                "properties": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shin Shoryuken",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["More powerful when vitality is at 25% or below"],
+                "properties": [""],
+                "meter_cost": 3,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Collarbone Breaker",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Kick",
+                        "notation": "MK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Solar Plexus Strike",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Short Uppercut",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "follow_up_to": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Axe Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Whirlwind Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "High Double Strike",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Fuwa Triple Strike",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shoulder Throw",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Neutral",
+                        "notation": "N"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Somersault Throw",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

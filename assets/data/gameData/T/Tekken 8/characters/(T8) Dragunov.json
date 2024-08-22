@@ -1,0 +1,5975 @@
+[
+  {
+    "name": "Dragunov",
+    "archetype": "",
+    "game": "Tekken 8",
+    "notations": {
+      "SNK": "Sneak"
+    },
+    "notations_group": "character",
+    "moves": [
+      {
+        "name": "White Angel of Death",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          "During Rage"
+        ],
+        "properties": [
+          "erases opponent's recoverable health on hit"
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          "Middle"
+        ],
+        "damage": null,
+        "category": "Rage Moves",
+        "type": "Rage Art",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 17
+      },
+      {
+        "name": "Eye Gouge > Hilt",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          "High",
+          "High",
+          "Middle"
+        ],
+        "damage": null,
+        "category": "",
+        "type": "Normal Move",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 18
+      },
+      {
+        "name": "Salvo",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          "Heat Engager"
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          "High",
+          "Middle",
+          "Middle"
+        ],
+        "damage": null,
+        "category": "Normal Move",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 19
+      },
+      {
+        "name": "Hammer and Sickle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "augmented_by_inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2",
+            "placement_index_in_sequence_array": 3,
+            "notes": "to shift to Feint & Catch"
+          }
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 20
+      },
+      {
+        "name": "One Two Scud Kick",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 21
+      },
+      {
+        "name": "One Two Mine Kick",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 22
+      },
+      {
+        "name": "Disconnector Combo Middle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 23
+      },
+      {
+        "name": "Disconnector Combo High",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 24
+      },
+      {
+        "name": "Karnov Hook",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 25
+      },
+      {
+        "name": "Karnov Kick",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 26
+      },
+      {
+        "name": "Karnov Avalanche",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 27
+      },
+      {
+        "name": "Bloodhound Strike",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 28
+      },
+      {
+        "name": "Iron Flail",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 29
+      },
+      {
+        "name": "Stun Gun",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 30
+      },
+      {
+        "name": "Step-in Mantis",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 31
+      },
+      {
+        "name": "Crushing Blizzard",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 32
+      },
+      {
+        "name": "Falcon Combination",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 33
+      },
+      {
+        "name": "Cougar Combination",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 34
+      },
+      {
+        "name": "Orca Combination",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 35
+      },
+      {
+        "name": "Scabbard",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 36
+      },
+      {
+        "name": "Switchblade Ripper",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 37
+      },
+      {
+        "name": "Scimitar",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 38
+      },
+      {
+        "name": "Mantis Heel",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 39
+      },
+      {
+        "name": "Reaper Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 40
+      },
+      {
+        "name": "Bunker-buster Elbow",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 41
+      },
+      {
+        "name": "Razer",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 42
+      },
+      {
+        "name": "Avalanche Hammer Rush",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 43
+      },
+      {
+        "name": "Detached Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 44
+      },
+      {
+        "name": "Separator",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 45
+      },
+      {
+        "name": "Stiletto",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 46
+      },
+      {
+        "name": "Death's Door",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Back",
+            "notation": "db"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 47
+      },
+      {
+        "name": "Clipping Sweep",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Back",
+            "notation": "db"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 48
+      },
+      {
+        "name": "Feint & Low Catch",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Back",
+            "notation": "db"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 49
+      },
+      {
+        "name": "Deadly Scorpion",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Back",
+            "notation": "db"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 50
+      },
+      {
+        "name": "Pommel Fling",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 51
+      },
+      {
+        "name": "Eye Gouge > Stingray",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 52
+      },
+      {
+        "name": "Serrated Edge",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 53
+      },
+      {
+        "name": "Tundra Strike > Ear Grab",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 54
+      },
+      {
+        "name": "Tundra Strike > Ambush Tackle",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 55
+      },
+      {
+        "name": "Tundra Slash",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 56
+      },
+      {
+        "name": "Blizzard Hammer",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 57
+      },
+      {
+        "name": "Inertia Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 58
+      },
+      {
+        "name": "Counterstrike",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Back",
+            "notation": "ub"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 59
+      },
+      {
+        "name": "Sub-Zero",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Back",
+            "notation": "ub"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 60
+      },
+      {
+        "name": "Eye Blast",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 61
+      },
+      {
+        "name": "Under Pressure",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 62
+      },
+      {
+        "name": "Breaching Charge Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 63
+      },
+      {
+        "name": "Slicing Sobat",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 64
+      },
+      {
+        "name": "Delayed Rising Toe Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Neutral",
+            "notation": "n"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 65
+      },
+      {
+        "name": "Russian Sickle",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 66
+      },
+      {
+        "name": "Feint & Catch",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 67
+      },
+      {
+        "name": "Stinger Kick",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 68
+      },
+      {
+        "name": "Rolling Thunder",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 69
+      },
+      {
+        "name": "Russian Hook Special",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 70
+      },
+      {
+        "name": "Snap Knee Assault",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 71
+      },
+      {
+        "name": "Death's Fragrance",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 72
+      },
+      {
+        "name": "Chernobog Sweep",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward (hold)",
+            "notation": "F"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 73
+      },
+      {
+        "name": "Mass Elbow",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Back",
+            "notation": "db"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 74
+      },
+      {
+        "name": "10 Hit Combo 1",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 75
+      },
+      {
+        "name": "10 Hit Combo 2",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 76
+      },
+      {
+        "name": "Ki Charge",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch + Left Kick + Right Kick",
+            "notation": "1 + 2 + 3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 77
+      },
+      {
+        "name": "Qullion",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 78
+      },
+      {
+        "name": "Double Hilt",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 79
+      },
+      {
+        "name": "Ballistic Upper",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 80
+      },
+      {
+        "name": "Glacial Hilt",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 81
+      },
+      {
+        "name": "Gelid Smash",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 82
+      },
+      {
+        "name": "Frost Tackle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 83
+      },
+      {
+        "name": "Hail Slicer",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 84
+      },
+      {
+        "name": "Hail Slicer > Ambush Tackle",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 85
+      },
+      {
+        "name": "Integral Slicer Clutch",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 86
+      },
+      {
+        "name": "Integral Blitz",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 87
+      },
+      {
+        "name": "Integral Blitz > Ambush Tackle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 88
+      },
+      {
+        "name": "Pigeon Roll",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 89
+      },
+      {
+        "name": "Clipping Heel Hook",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 90
+      },
+      {
+        "name": "Living Dead",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 91
+      },
+      {
+        "name": "Living Dead > Ambush Tackle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 92
+      },
+      {
+        "name": "Cane Stab",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 93
+      },
+      {
+        "name": "Sneak",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 94
+      },
+      {
+        "name": "Cocked Hammer",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 95
+      },
+      {
+        "name": "Stinger Elbow",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 96
+      },
+      {
+        "name": "Slay Ride",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 97
+      },
+      {
+        "name": "Needle Hold",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick",
+            "notation": "3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 98
+      },
+      {
+        "name": "Ignition Switch",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Kick",
+            "notation": "4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 99
+      },
+      {
+        "name": "Snap Knee",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Down Forward",
+            "notation": "df"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 100
+      },
+      {
+        "name": "Volk Clutch",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 101
+      },
+      {
+        "name": "Purge Slam",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 102
+      },
+      {
+        "name": "Tarantula Sting",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          },
+          {
+            "group": "notations",
+            "input": "Or (move operands are interchangeable)",
+            "notation": "_"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 103
+      },
+      {
+        "name": "Reverse Fracture",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          },
+          {
+            "group": "notations",
+            "input": "Or (move operands are interchangeable)",
+            "notation": "_"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 104
+      },
+      {
+        "name": "Absolute Silence",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          },
+          {
+            "group": "notations",
+            "input": "Or (move operands are interchangeable)",
+            "notation": "_"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 105
+      },
+      {
+        "name": "Reverse Victor Clutch",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Kick",
+            "notation": "1 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 106
+      },
+      {
+        "name": "Victor Clutch",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Forward",
+            "notation": "f"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Left Kick",
+            "notation": "2 + 3"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 107
+      },
+      {
+        "name": "Blizzard Rush",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 108
+      },
+      {
+        "name": "Cold Fate",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          },
+          {
+            "group": "notations",
+            "input": "Or (move operands are interchangeable)",
+            "notation": "_"
+          },
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 109
+      },
+      {
+        "name": "Scorpion Scissors",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Up Forward",
+            "notation": "uf"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 110
+      },
+      {
+        "name": "Pigeon Roll > Ambush Tackle",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 111
+      },
+      {
+        "name": "Frost Bite",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch",
+            "notation": "1"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 112
+      },
+      {
+        "name": "Achilles' Hold",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Right Punch",
+            "notation": "2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 113
+      },
+      {
+        "name": "Iron Curtain",
+        "inputs": [
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 114
+      },
+      {
+        "name": "Red Alert",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Left Kick",
+            "notation": "1 + 3"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "notations",
+            "input": "Followed By (one right after the other)",
+            "notation": ","
+          },
+          {
+            "group": "directions",
+            "input": "Back",
+            "notation": "b"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Right Punch + Right Kick",
+            "notation": "2 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 115
+      },
+      {
+        "name": "Pit Fall",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Punch + Right Punch",
+            "notation": "1 + 2"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 116
+      },
+      {
+        "name": "Low Parry",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down Forward (hold)",
+            "notation": "D/F"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 117
+      },
+      {
+        "name": "Six Feet Under",
+        "inputs": [
+          {
+            "group": "directions",
+            "input": "Down",
+            "notation": "d"
+          },
+          {
+            "group": "notations",
+            "input": "Press Simultaneously",
+            "notation": "+"
+          },
+          {
+            "group": "attacks",
+            "input": "Left Kick + Right Kick",
+            "notation": "3 + 4"
+          }
+        ],
+        "conditions": [
+          ""
+        ],
+        "properties": [
+          ""
+        ],
+        "minimum_required_resource": null,
+        "resource_gain": null,
+        "resource_cost": null,
+        "follow_up_to": [
+          ""
+        ],
+        "augmented_by_move": [
+          ""
+        ],
+        "meter_cost": null,
+        "meter_gain": null,
+        "hit_count": null,
+        "ex_hit_count": null,
+        "zones": [
+          ""
+        ],
+        "damage": null,
+        "category": "",
+        "type": "",
+        "startup_frames": null,
+        "active_frames": null,
+        "recovery_frames": null,
+        "frames_on_hit": null,
+        "frames_on_block": null,
+        "frames_on_counter_hit": null,
+        "move_list_number": 118
+      }
+    ]
+  }
+]

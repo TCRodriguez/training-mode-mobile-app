@@ -1,0 +1,906 @@
+[
+    {
+        "name": "Lily", 
+        "archetype": "", 
+        "game": "Street Fighter 6", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Condor Wind",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Hold the button to change effect"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": 1,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Condor Spire",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": ["Condor Wind"],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 1,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Tomahawk Buster",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": ["Condor Wind"],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 2,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Condor Dive",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Any Two Punches",
+                        "notation": "PP"
+                    }
+                ],
+                "conditions": ["During a neutral jump or forward jump", "Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": ["Condor Wind"],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "OD Condor Dive",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "All Punches",
+                        "notation": "PPP"
+                    }
+                ],
+                "conditions": ["During a neutral jump, forward jump, or OD Tomahawk Buster", "Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 1,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Mexican Typhoon",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Up Back",
+                        "notation": "UB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Up",
+                        "notation": "U"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Up Forward",
+                        "notation": "UF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Breezing Hawk",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 1,
+                "meter_gain": null,
+                "hit_count": 14,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Thunderbird",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": ["Condor Wind"],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 8,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Soaring Thunderbird",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During a jump", "Effect changes when Windclad"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": ["Condor Wind"],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 8,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Raging Typhoon",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["When near opponent", "More powerful when vitality is at 25% or below"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 3,
+                "meter_gain": null,
+                "hit_count": 2,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Ridge Thrust",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "Forward"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Horn Breaker",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Great Spin",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": ["During a jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Double Arrow",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    }
+                ],
+                "conditions": ["During a jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 2,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Desert Storm",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 3,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Canyon Throw",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Neutral",
+                        "notation": "N"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": ["When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Falling Cliff",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

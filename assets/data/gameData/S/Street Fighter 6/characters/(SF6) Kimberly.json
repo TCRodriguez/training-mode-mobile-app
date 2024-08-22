@@ -1,0 +1,1504 @@
+[
+    {
+        "name": "Kimberly", 
+        "archetype": "", 
+        "game": "Street Fighter 6", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Bushin Senpukyaku",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 3,
+                "ex_hit_count": 5,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Aerial Bushin Senpukyaku",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "Kick"
+                    }
+                ],
+                "conditions": ["During a forward jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 3,
+                "ex_hit_count": 5,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Sprint",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "Kick"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Emergency Stop",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["During Sprint"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Sprint"],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Torso Cleaver",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": ["During Sprint"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Sprint"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shadow Slide",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Medium Kick",
+                        "notation": "MK"
+                    }
+                ],
+                "conditions": ["During Sprint"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Sprint"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 2,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Neck Hunter",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": ["During Sprint"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Sprint"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 2,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Arc Step",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "",
+                        "notation": ""
+                    }
+                ],
+                "conditions": ["Automatically activates after getting close with Sprint"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Sprint"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 2,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Izuna Otoshi",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["During Arc Step"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Arc Step"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Hojin Kick",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During Arc Step"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Vagabond Edge",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 2,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Hidden Variable",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Genius at Play",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shuriken Bomb",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["With at least 1 Shuriken Bomb stock"],
+                "properties": [""],
+                "minimum_required_resource": 1,
+                "follow_up_to": ["Genius at Play"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Shuriken Bomb Spread",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    }
+                ],
+                "conditions": ["With at least 2 Shuriken Bomb stocks"],
+                "properties": [""],
+                "minimum_required_resource": 2,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Nue Twister",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["During a jump", "When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Beats",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 1,
+                "meter_gain": null,
+                "hit_count": 8,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Thunderous Beats",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["With at least 1 Shuriken Bomb stock"],
+                "properties": [""],
+                "minimum_required_resource": 1,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 1,
+                "meter_gain": null,
+                "hit_count": 8,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Scramble",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 5,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Soaring Bushin Scramble",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["During a forward jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 5,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Ninjastar Cypher",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "[p"
+                    }
+                ],
+                "conditions": ["More powerful when vitality is at 25% or below"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 3,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Water Slicer Slide",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Kick",
+                        "notation": "MK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Windmill Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Hisen Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Step Up",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Up Back",
+                        "notation": "UB"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Up",
+                        "notation": "U"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Up Forward",
+                        "notation": "UF"
+                    }
+                ],
+                "conditions": ["After Hisen Kick"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": ["Hisen Kick"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Elbow Drop",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    }
+                ],
+                "conditions": ["At the peak of a forward jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Tiger Fangs",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 2,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Prism Strikes",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 4,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Hellchain",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": 4,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bushin Hellchain Throw",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Ripcord Throw",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Neutral",
+                        "notation": "N"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Bell Ringer",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

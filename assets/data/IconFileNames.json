@@ -1,0 +1,20 @@
+[
+    {"icon": "ub.svg", "direction": "Up Back", "attack_button": ""},
+    {"icon": "ubp.svg", "direction": "Up Back (hold)", "attack_button": ""},
+    {"icon": "u.svg", "direction": "Up", "attack_button": ""},
+    {"icon": "up.svg", "direction": "Up (hold)", "attack_button": ""},
+    {"icon": "uf.svg", "direction": "Up Forward", "attack_button": ""},
+    {"icon": "ufp.svg", "direction": "Up Forward (hold)", "attack_button": ""},
+    {"icon": "b.svg", "direction": "Back", "attack_button": ""},
+    {"icon": "bp.svg", "direction": "Back (hold)", "attack_button": ""},
+    {"icon": "n.svg", "direction": "Neutral", "attack_button": ""},
+    {"icon": "np.svg", "direction": "Neutral (hold)", "attack_button": ""},
+    {"icon": "f.svg", "direction": "Forward", "attack_button": ""},
+    {"icon": "fp.svg", "direction": "Forward (hold)", "attack_button": ""},
+    {"icon": "db.svg", "direction": "Down Back", "attack_button": ""},
+    {"icon": "dbp.svg", "direction": "Down Back (hold)", "attack_button": ""},
+    {"icon": "d.svg", "direction": "Down", "attack_button": ""},
+    {"icon": "dp.svg", "direction": "Down (hold)", "attack_button": ""},
+    {"icon": "df.svg", "direction": "Down Forward", "attack_button": ""},
+    {"icon": "dfp.svg", "direction": "Down Forward (hold)", "attack_button": ""}
+]

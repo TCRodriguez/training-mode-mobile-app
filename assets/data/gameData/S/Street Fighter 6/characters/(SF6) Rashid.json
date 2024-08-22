@@ -1,0 +1,1232 @@
+[
+    {
+        "name": "Rashid", 
+        "archetype": "", 
+        "game": "Street Fighter 6", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Spinning Mixer",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["Effect changes when in contact with air current"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 3,
+                "ex_hit_count": 9,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Eagle Spike",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["Effect changes when in contact with air current"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": 1,
+                "ex_hit_count": 1,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Whirlwind Shot",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["Hold the button to change effect"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Arabian Cyclone",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Wing Stroke",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During Arabian Cyclone"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Arabian Cyclone"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Rolling Assault",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During Arabian Cyclone"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Arabian Cyclone"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Nail Assault",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During Rolling Assault"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Rolling Assault"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Arabian Skyhigh",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During forward jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Special Moves",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Super Rashid Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 1,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Ysaar",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "DB"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 2,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Altair",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "DF"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["More powerful when vitality is at 25% or below"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": 3,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Super Arts",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Run",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward (hold)",
+                        "notation": "[F]"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Backup",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Punch",
+                        "notation": "P"
+                    }
+                ],
+                "conditions": ["During Run"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Run"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Tempest Moon",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Kick",
+                        "notation": "K"
+                    }
+                ],
+                "conditions": ["During Run", "Effect changes when in contact with air current"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Run"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Flapping Spin",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Beak Assault",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Crescent Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Blitz Strike",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "D"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Punch",
+                        "notation": "HP"
+                    }
+                ],
+                "conditions": ["During a forward jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Aerial Shot",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Up",
+                        "notation": "U"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": ["During a neutral jump"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Rising Kick",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Medium Punch",
+                        "notation": "MP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Followed By",
+                        "notation": ">"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Heavy Kick",
+                        "notation": "HK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Side Flip",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Two Kicks",
+                        "notation": "KK"
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Front Flip",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Neutral",
+                        "notation": "N"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Any Two Kicks",
+                        "notation": "2K"
+                    }
+                ],
+                "conditions": ["During Side Flip"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": ["Side Flip"],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Wall Jump",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Up Forward",
+                        "notation": "UF"
+                    }
+                ],
+                "conditions": ["During a jump", "Must be near a wall"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Unique Attacks",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Riding Glider",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Neutral",
+                        "notation": "N"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": ["When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Sunset Drop",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "B"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Either or",
+                        "notation": "or"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": ["When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Desert Slider",
+                "inputs": [
+                    {
+                        "group": "attacks",
+                        "input": "Light Punch",
+                        "notation": "LP"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Light Kick",
+                        "notation": "LK"
+                    }
+                ],
+                "conditions": ["During a jump", "When near opponent"],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "Throws",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ]
+    }
+]

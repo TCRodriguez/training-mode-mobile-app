@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Ed", 
+        "archetype": "", 
+        "game": "Street Fighter 6", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "move_list_number": null,
+                "name": "",
+                "inputs": [
+                    {
+                        "group": "",
+                        "input": "",
+                        "notation": ""
+                    }
+                ],
+                "conditions": [""],
+                "properties": [""],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [""],
+                "augmented_by_move": [""],
+                "augmented_by_inputs": [
+                    { 
+                        "group": "", 
+                        "input": "", 
+                        "notation": "",
+                        "placement_index_in_sequence_array": null,
+                        "notes": [
+                            {
+                                "text": "", 
+                                "placement_index_in_sequence_array": null
+                            }
+                        ]
+                    }
+                ],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [""],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

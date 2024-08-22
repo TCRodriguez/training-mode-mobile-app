@@ -1,0 +1,39 @@
+[
+    {"name": "Light Punch", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "LP", "icon": "sf6-LP.svg",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 2"] }
+        ]
+    },
+    {"name": "Medium Punch", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "MP", "icon": "sf6-MP.svg",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 3"] }
+        ]
+    },
+    {"name": "Heavy Punch", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "HP", "icon": "sf6-HP.svg", 
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 5"] }
+        ]
+    },
+    {"name": "Light Kick", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "LK", "icon": "sf6-LK.svg",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 0"] }
+        ]
+    },
+    {"name": "Medium Kick", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "MK", "icon": "sf6-MK.svg",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 1"] }
+        ]
+    },
+    {"name": "Heavy Kick", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "HK", "icon": "sf6-HK.svg",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 7"] }
+        ]
+    },
+    {"name": "Any Punch", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "AP", "icon": "sf6-AP.svg"},
+    {"name": "Any Two Punches", "button_count": "2", "game": "Street Fighter 6", "game_shorthand": "DBLP", "icon": "sf6-AP.svg"},
+    {"name": "All Punches", "button_count": "3", "game": "Street Fighter 6", "game_shorthand": "AllP", "icon": "sf6-AP.svg"},
+    {"name": "Any Kick", "button_count": "1", "game": "Street Fighter 6", "game_shorthand": "AK", "icon": "sf6-AK.svg"},
+    {"name": "Any Two Kicks", "button_count": "2", "game": "Street Fighter 6", "game_shorthand": "DBLK", "icon": "sf6-AK.svg"},
+    {"name": "All Kicks", "button_count": "3", "game": "Street Fighter 6", "game_shorthand": "AllK", "icon": "sf6-AK.svg"},
+    {"name": "No Input", "button_count": "0", "game": "Street Fighter 6", "game_shorthand": "NoInput", "icon": "sf6-NoInput.svg"}
+]

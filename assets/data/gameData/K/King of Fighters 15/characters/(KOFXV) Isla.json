@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Isla",
+        "archetype": "",
+        "game": "King of Fighters XV",
+        "notations": {},
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "",
+                "inputs": [
+                    {
+                        "group": "",
+                        "input": "",
+                        "notation": ""
+                    }
+                ],
+                "conditions": [
+                    ""
+                ],
+                "properties": [
+                    ""
+                ],
+                "minimum_required_resource": null,
+                "resource_gain": null,
+                "resource_cost": null,
+                "follow_up_to": [
+                    ""
+                ],
+                "augmented_by_move": [
+                    ""
+                ],
+                "meter_cost": null,
+                "meter_gain": null,
+                "hit_count": null,
+                "ex_hit_count": null,
+                "zones": [
+                    ""
+                ],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ]
+    }
+]

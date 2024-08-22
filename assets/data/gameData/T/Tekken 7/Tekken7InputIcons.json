@@ -1,0 +1,11 @@
+[
+    {"url": "https://dl.dropbox.com/s/bi62o50yu4tmcd4/ub.svg", "directional_input": ["Up Back"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/0a19af8hosgejcy/u.svg", "directional_input": ["Up"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/dexq70zv2asek0p/uf.svg", "directional_input": ["Up Forward"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/x7jo1v69c3ceuwg/b.svg", "directional_input": ["Back"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/xuj1x48ptwuzjag/n.svg", "directional_input": ["Neutral"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/tlnq0mhrm4bmqki/f.svg", "directional_input": ["Forward"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/2mo56bs2m0votq6/db.svg", "directional_input": ["Down Back"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/10wmc0fgzzu3vvi/d.svg", "directional_input": ["Down"], "attack_button": [""]},
+    {"url": "https://dl.dropbox.com/s/mxb7rpcija1my5q/df.svg", "directional_input": ["Down Forward"], "attack_button": [""]}
+]

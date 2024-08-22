@@ -1,0 +1,10 @@
+[
+    {"title": "Dragon Ball FighterZ", "abbreviation": "dbfz", "buttons": "4"},
+    {"title": "Granblue Fantasy Versus Rising", "abbreviation": "gbvsr", "buttons": "4"},
+    {"title": "Guilty Gear Strive", "abbreviation": "ggst", "buttons": "5"},
+    {"title": "King of Fighters XV", "abbreviation": "kofxv", "buttons": "4"},
+    {"title": "Mortal Kombat 1", "abbreviation": "mk1", "buttons": "4"},
+    {"title": "Street Fighter 6", "abbreviation": "sf6", "buttons": "6"},
+    {"title": "Tekken 7", "abbreviation": "t7", "buttons": "4"},
+    {"title": "Tekken 8", "abbreviation": "t8", "buttons": "4"}
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Lidia Sobieska", 
+        "archetype": "", 
+        "game": "Tekken 7", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Rage Art",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "d"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Left Punch + Right Punch",
+                        "notation": "1 + 2"
+                    }
+                ],
+                "notation_string": "",
+                "zones": ["Mid", "Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Rage Drive",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward (hold)",
+                        "notation": "F"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Right Punch + Left Kick",
+                        "notation": "2 + 3"
+                    }
+                ],
+                "notation_string": "",
+                "zones": ["Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

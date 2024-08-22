@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Armor King", 
+        "archetype": "", 
+        "game": "Tekken 7", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Wind-up Stomp",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f",
+                        "order": "1"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+",
+                        "order": "2"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Right Kick",
+                        "notation": "4",
+                        "order": "3"
+                    }
+                ],
+                "notation_string": "f + 4",
+                "zones": ["Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Toe Kick",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Back",
+                        "notation": "b"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Right Kick",
+                        "notation": "4"
+                    }
+                ],
+                "notation_string": "",
+                "zones": ["Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ]
+    }
+]

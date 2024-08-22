@@ -1,0 +1,27 @@
+[
+    {"name": "Punch", "button_count": "1", "game": "Guilty Gear Strive", "game_shorthand": "P", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Kick", "button_count": "1", "game": "Guilty Gear Strive", "game_shorthand": "K", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Slash", "button_count": "1", "game": "Guilty Gear Strive", "game_shorthand": "S", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Heavy Slash", "button_count": "1", "game": "Guilty Gear Strive", "game_shorthand": "HS", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Dust", "button_count": "1", "game": "Guilty Gear Strive", "game_shorthand": "D", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    }
+]
