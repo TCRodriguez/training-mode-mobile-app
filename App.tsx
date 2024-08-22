@@ -1,4 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { View, Text, Image, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import CharacterMovesScreen from './src/screens/CharacterMovesScreen';
 import NotesScreen from './src/screens/NotesScreen';
@@ -8,10 +9,51 @@ import DocumentIcon from './assets/icons/DocumentIcon';
 import ListIcon from './assets/icons/ListIcon';
 import FistIcon from './assets/icons/FistIcon';
 import CharacterCombosScreen from './src/screens/CharacterCombosScreen';
+import { drizzle } from 'drizzle-orm/expo-sqlite';
+import { openDatabaseSync } from 'expo-sqlite/next';
+import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
+import migrations from './src/db/migrations/migrations';
+import { useDrizzleStudio } from 'expo-drizzle-studio-plugin';
+import * as FileSystem from 'expo-file-system';
+import { seedGame, seedGames } from './src/db/seeders/gameSeeder.mjs';
+
+const expoDb = openDatabaseSync('training-mode.db');
+
+const db = drizzle(expoDb);
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
+
+  const dbFilePath = `${FileSystem.documentDirectory}SQLite/training-mode.db`;
+
+  console.log('Database file path:', dbFilePath);
+
+
+
+  useDrizzleStudio(expoDb);
+  const { success, error } = useMigrations(db, migrations);
+  if (error) {
+    return (
+      <View>
+        <Text>Migration error: {error.message}</Text>
+      </View>
+    );
+  }
+  if (!success) {
+    return (
+      <View>
+        <Text>Migration is in progress...</Text>
+      </View>
+    );
+  }
+
+  seedGames(dbFilePath);
+
+
+
+
+
   return (
     < NavigationContainer >
       <Tab.Navigator
