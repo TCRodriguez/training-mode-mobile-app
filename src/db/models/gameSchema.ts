@@ -3,12 +3,12 @@ import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 const games = sqliteTable(
   'games',
   {
-    id: integer('id'),
+    id: integer('id').primaryKey(),
     title: text('title').notNull(),
     abbreviation: text('abbreviation').notNull(),
     buttons: text('buttons').notNull(),
-    created_at: integer('created_at'),
-    updated_at: integer('updated_at'),
+    created_at: integer('created_at').notNull(),
+    updated_at: integer('updated_at').notNull(),
   },
   (table) => ({
     unq: unique().on(table.title)
