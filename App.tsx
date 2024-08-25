@@ -1,5 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text, Image, StyleSheet } from 'react-native';
+import { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import CharacterMovesScreen from './src/screens/CharacterMovesScreen';
 import NotesScreen from './src/screens/NotesScreen';
@@ -15,24 +16,39 @@ import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
 import migrations from './src/db/migrations/migrations';
 import { useDrizzleStudio } from 'expo-drizzle-studio-plugin';
 import * as FileSystem from 'expo-file-system';
-import { seedGame, seedGames } from './src/db/seeders/gameSeeder.mjs';
+import { seedGames } from './src/db/seeders/gameSeeder.mjs';
+import { DATABASE_NAME } from '@env';
 
-const expoDb = openDatabaseSync('training-mode.db');
+const expoDb = openDatabaseSync(DATABASE_NAME);
 
 const db = drizzle(expoDb);
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
-
-  const dbFilePath = `${FileSystem.documentDirectory}SQLite/training-mode.db`;
-
+  const dbFilePath = `${FileSystem.documentDirectory}SQLite/${DATABASE_NAME}.db`;
   console.log('Database file path:', dbFilePath);
-
-
 
   useDrizzleStudio(expoDb);
   const { success, error } = useMigrations(db, migrations);
+
+  useEffect(() => {
+    const initializeDatabase = async () => {
+      console.log('Initializing database...');
+      await seedGames(dbFilePath);
+      console.log('Finished seeding games');
+    };
+
+    if (success) {
+      initializeDatabase();
+    }
+  }, [success, dbFilePath]);
+
+
+
+
+
+
   if (error) {
     return (
       <View>
@@ -48,8 +64,13 @@ export default function App() {
     );
   }
 
+  console.log('right before seedGames');
   seedGames(dbFilePath);
-
+  // useEffect(() => {
+  //   (async () => {
+  //     await seedGames(dbFilePath);
+  //   })();
+  // }, []);
 
 
 
