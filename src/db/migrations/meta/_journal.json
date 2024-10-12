@@ -5,8 +5,50 @@
     {
       "idx": 0,
       "version": "6",
-      "when": 1724302936090,
-      "tag": "20240822050216_create_games_table",
+      "when": 1725320625129,
+      "tag": "20240902234345_create_games_and_characters_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1727240319846,
+      "tag": "20240925045839_create_directional_inputs_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1727744760070,
+      "tag": "20241001010600_create_game_notations_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1727758249058,
+      "tag": "20241001045049_adjust_unique_constraint_for_game_notations_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1728239624747,
+      "tag": "20241006183344_create_attack_buttons_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1728241767050,
+      "tag": "20241006190927_create_hit_zones_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1728247376097,
+      "tag": "20241006204256_create_character_moves_table",
       "breakpoints": true
     }
   ]

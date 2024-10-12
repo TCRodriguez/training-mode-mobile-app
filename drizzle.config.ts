@@ -1,7 +1,7 @@
 import type { Config } from 'drizzle-kit';
 
 export default {
-  schema: "./src/db/models/*.ts",
+  schema: "./src/db/schemas/*.ts",
   out: './src/db/migrations',
   dialect: 'sqlite',
   driver: 'expo',

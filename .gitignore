@@ -1,5 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+# env files
+.env
+.env.local
+
 # dependencies
 node_modules/
 
@@ -15,6 +19,9 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
+
+# Builds
+ios
 
 # Metro
 .metro-health-check*
@@ -33,3 +40,6 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# local db files
+training_mode_local.db
