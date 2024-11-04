@@ -44,18 +44,17 @@ export const seedDirectionalInputs = async () => {
 
   try {
 
-
     const db = await dbInit();
 
     // const db = new Database(`${DATABASE_NAME}.db`);
 
-    const insertDirecionalInputsStatement = db.prepare(`INSERT INTO directional_inputs (direction, game_shorthand, numpad_notation, created_at, updated_at) VALUES (@direction, @game_shorthand, @numpad_notation, @createdAt, @updatedAt)`);
+    const insertDirecionalInputsStatement = db.prepare(`INSERT INTO directional_inputs (direction, game_shorthand, numpad_notation, created_at, updated_at) VALUES (@direction, @gameShorthand, @numpadNotation, @createdAt, @updatedAt)`);
     const insertDirectionalInputsTx = db.transaction((directionalInputs) => {
       for (const directionalInput of directionalInputs) {
         const directionalInputToBeInserted = {
           direction: directionalInput.direction,
-          game_shorthand: directionalInput.game_shorthand,
-          numpad_notation: directionalInput.numpad_notation,
+          gameShorthand: directionalInput.game_shorthand,
+          numpadNotation: directionalInput.numpad_notation,
           createdAt: now,
           updatedAt: now,
         }
