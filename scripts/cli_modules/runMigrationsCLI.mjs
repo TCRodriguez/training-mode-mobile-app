@@ -20,15 +20,17 @@ export const runMigrations = async () => {
   if (fs.existsSync(`${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`)) {
     console.log(`Database file exists at: ${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`);
   } else {
-    console.log(`Database file ${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db does not exist.`);
+    console.log(`Database file ${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db does not exist. Please create DB file first.`);
     process.exit(1);
   }
 
   try {
     const sqlite = new Database(`${DATABASE_NAME}.db`);
-    console.log('Database opened successfully.');
     const db = drizzle(sqlite);
+    console.log('Database opened successfully.');
+    console.log('Running migrations...');
     migrate(db, { migrationsFolder: migrationsFolderPath });
+    console.log('Migrations complete.');
 
   } catch (error) {
     console.error('Error opening database:', error);
