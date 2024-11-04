@@ -26,7 +26,7 @@ export const seedCharacters = async () => {
       const db = await dbInit();
 
       const selectGameStatement = db.prepare(`SELECT * FROM games WHERE title = ?`);
-      const insertCharactersStatement = db.prepare(`INSERT INTO characters (name, archetype, game_id, created_at, updated_at) VALUES (@name, @archetype, @game_id, @createdAt, @updatedAt)`);
+      const insertCharactersStatement = db.prepare(`INSERT INTO characters (name, archetype, game_id, created_at, updated_at) VALUES (@name, @archetype, @gameId, @createdAt, @updatedAt)`);
       const insertCharactersTx = db.transaction((characters) => {
         for (const character of characters) {
           const game = selectGameStatement.get(character[0].game);
@@ -37,7 +37,7 @@ export const seedCharacters = async () => {
             const characterToBeInserted = {
               name: character[0].name,
               archetype: character[0].archetype,
-              game_id: game.id,
+              gameId: game.id,
               createdAt: now,
               updatedAt: now,
             }
