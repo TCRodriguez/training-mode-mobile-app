@@ -1,6 +1,4 @@
-import Database from 'better-sqlite3';
 import dotenv from 'dotenv';
-import fs from 'fs';
 import path from 'path';
 import { confirm } from '@inquirer/prompts';
 import { fileURLToPath } from 'url';
@@ -11,28 +9,35 @@ import { seedGameNotations } from './seeders/seedGameNotationsCLI.mjs';
 import { seedAttackButtons } from './seeders/seedAttackButtonsCLI.mjs';
 import { seedHitZones } from './seeders/seedHitZonesCLI.mjs';
 import { seedCharacterMoves } from './seeders/seedCharacterMovesCLI.mjs';
+import { checkIfDatabaseExists } from './utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
-const DATABASE_NAME = process.env.DATABASE_NAME;
-const DATABASE_DIRECTORY_PATH = process.env.DATABASE_DIRECTORY_PATH;
 
 export const seedDatabase = async (seeder = 'all') => {
-  if (fs.existsSync(`${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`)) {
-    console.log(`Database file exists at: ${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`);
+  checkIfDatabaseExists();
 
+  try {
     if (seeder === 'all') {
+
+      // TODO: Need to figure out how to catch any "silent" errors and prevent the entire seeding action from happening.
+      // If there is an error in `seedGameNotations`, `seedDirectionalInputs` should not actually insert anything into the DB.
+      // I think the way it works is that a "temp" DB file is created and then the data is inserted into the DB. If there is an error, the temp DB file is deleted
+      // and the original DB file is not touched.
+      // For now, I'm just throwing an error in the readJsonFiles function in getJsonData.mjs to catch any JSON file errors
+      // which is what was happening (KOFXVAttackButtons had a comma at the end)
+
       console.log('All seeders running...');
 
       await seedDirectionalInputs();
       await seedHitZones();
       await seedGames();
-      await seedGameNotations();
       await seedAttackButtons();
       await seedCharacters();
       await seedCharacterMoves();
+      await seedGameNotations();
     } else if (seeder === 'games') {
       console.log('Games seeder running...');
       await seedGames();
@@ -57,11 +62,10 @@ export const seedDatabase = async (seeder = 'all') => {
     } else {
       console.log('Invalid seeder argument. Please use one of the following: all, games, characters, directionalInputs, gameNotations, attackButtons');
     }
-  } else {
-    console.log(`Database file ${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db does not exist.`);
-    process.exit(1);
-    // fs.mkdirSync(DATABASE_DIRECTORY_PATH);
+  } catch (error) {
+    console.error(error);
   }
 
   return;
 }
+
