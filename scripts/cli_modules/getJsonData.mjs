@@ -46,6 +46,7 @@ export const readJsonFiles = async (jsonFiles) => {
       return JSON.parse(fileContent);
     } catch (error) {
       console.error(`Error parsing JSON file: ${filePath}`, error);
+      process.exit(1);
       return null;
     }
   }).filter(file => file !== null);
