@@ -18,5 +18,7 @@
         "device_mappings": [
             { "device_name": "DualShock 4", "button_mapping": [""] }
         ]
-    }
+    },
+    {"name": "Any Punch", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "P", "icon": ""},
+    {"name": "Any Kick", "button_count": "1", "game": "King of Fighters XV", "game_shorthand": "K", "icon": ""}
 ]

@@ -1,10 +1,10 @@
 [
     {"text": "LP", "description": "Light Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Light Punch"], "group": "attacks", "icon": ""},
     {"text": "HP", "description": "Heavy Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Heavy Punch"], "group": "attacks", "icon": ""},
-    {"text": "P", "description": "Any Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": [""], "group": "attacks", "icon": ""},
+    {"text": "P", "description": "Any Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Any Punch"], "group": "attacks", "icon": ""},
     {"text": "LK", "description": "Light Kick", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Light Kick"], "group": "attacks", "icon": ""},
     {"text": "HK", "description": "Heavy Kick", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Heavy Kick"], "group": "attacks", "icon": ""},
-    {"text": "K", "description": "Any Kick", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": [""], "group": "attacks", "icon": ""},
+    {"text": "K", "description": "Any Kick", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Any Kick"], "group": "attacks", "icon": ""},
     {"text": "A", "description": "Light Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Light Punch"], "group": "attacks", "icon": ""},
     {"text": "B", "description": "Heavy Punch", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Heavy Punch"], "group": "attacks", "icon": ""},
     {"text": "C", "description": "Light Kick", "game": "King of Fighters XV", "directional_inputs": [""], "attack_buttons": ["Light Kick"], "group": "attacks", "icon": ""},
