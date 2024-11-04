@@ -148,12 +148,13 @@ const mapSQLiteTypeToMSTType = (sqliteType) => {
 
 // Function to list all tables in the database
 const listTables = async (dbName) => {
+  let db;
   if (dbName === 'default') {
     console.error('Error: Please provide a database name as the first argument.');
     process.exit(1);
   }
   try {
-    const db = await dbInit(dbName);
+    db = await dbInit(dbName);
 
     const statement = db.prepare("SELECT name FROM sqlite_master WHERE type='table';").all();
     console.log('Tables in the database:');
