@@ -6,3 +6,5 @@ CREATE TABLE `directional_inputs` (
 	`created_at` integer NOT NULL,
 	`updated_at` integer NOT NULL
 );
+--> statement-breakpoint
+CREATE UNIQUE INDEX `unique_directional_inputs` ON `directional_inputs` (`direction`);

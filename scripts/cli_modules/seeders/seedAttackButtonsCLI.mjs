@@ -19,10 +19,6 @@ export const seedAttackButtons = async () => {
   const jsonFiles = await traverseDirectoryAndGetFiles('assets/data/gameData', [], 'AttackButtons.json');
   const attackButtonsData = await readJsonFiles(jsonFiles);
 
-  // console.log(attackButtonsData);
-
-  // return;
-
   try {
     const db = await dbInit();
 
@@ -38,8 +34,7 @@ export const seedAttackButtons = async () => {
         const game = selectGameStatement.get(attackButtonGroup[0].game);
         console.log('-------------------');
         console.log('game:', game);
-        console.log('-------------------');
-        console.log('attackButtonGroup:', attackButtonGroup);
+        // console.log('attackButtonGroup:', attackButtonGroup);
         if (!game) {
           console.log('Game not found:', attackButtonGroup[0].game);
         } else {
@@ -55,9 +50,9 @@ export const seedAttackButtons = async () => {
 
             const doesAttackButtonExist = db.prepare(`SELECT * FROM attack_buttons WHERE name = ? AND game_id = ?`).get(attackButton.name, game.id);
             if (doesAttackButtonExist) {
-              console.log('Attack button already exists:', attackButton.name);
+              // console.log('Attack button already exists:', attackButton.name);
             } else {
-              console.log('attackButtonToBeInserted', attackButtonToBeInserted);
+              // console.log('attackButtonToBeInserted', attackButtonToBeInserted);
               insertAttackButtonsStatement.run(attackButtonToBeInserted);
             }
           }

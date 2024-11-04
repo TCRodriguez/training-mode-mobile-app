@@ -1,9 +1,91 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "ba18ed87-9dd9-4f34-a9b8-82888c7c46af",
-  "prevId": "041cb634-387c-4f12-a481-004d188bdd58",
+  "id": "f56553ab-1abf-4de1-9053-98ab7b7a7f03",
+  "prevId": "c126c13a-e71a-4b12-a01d-d644b677ea13",
   "tables": {
+    "attack_buttons": {
+      "name": "attack_buttons",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_shorthand": {
+          "name": "game_shorthand",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "button_count": {
+          "name": "button_count",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_game_attack_buttons": {
+          "name": "unique_game_attack_buttons",
+          "columns": [
+            "name",
+            "game_shorthand",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "attack_buttons_game_id_games_id_fk": {
+          "name": "attack_buttons_game_id_games_id_fk",
+          "tableFrom": "attack_buttons",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
     "characters": {
       "name": "characters",
       "columns": {
@@ -124,89 +206,16 @@
           "autoincrement": false
         }
       },
-      "indexes": {},
-      "foreignKeys": {},
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
-    },
-    "game_notations": {
-      "name": "game_notations",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "integer",
-          "primaryKey": true,
-          "notNull": true,
-          "autoincrement": false
-        },
-        "notation": {
-          "name": "notation",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false
-        },
-        "description": {
-          "name": "description",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false
-        },
-        "game_id": {
-          "name": "game_id",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false
-        },
-        "notations_group": {
-          "name": "notations_group",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false,
-          "autoincrement": false
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false
-        },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false
-        }
-      },
       "indexes": {
-        "unique_game_game_notations_pair": {
-          "name": "unique_game_game_notations_pair",
+        "unique_directional_inputs": {
+          "name": "unique_directional_inputs",
           "columns": [
-            "notation",
-            "game_id"
+            "direction"
           ],
           "isUnique": true
         }
       },
-      "foreignKeys": {
-        "game_notations_game_id_games_id_fk": {
-          "name": "game_notations_game_id_games_id_fk",
-          "tableFrom": "game_notations",
-          "tableTo": "games",
-          "columnsFrom": [
-            "game_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
-        }
-      },
+      "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
@@ -261,6 +270,51 @@
           "name": "games_title_unique",
           "columns": [
             "title"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "hit_zones": {
+      "name": "hit_zones",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "zone": {
+          "name": "zone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_hit_zone": {
+          "name": "unique_hit_zone",
+          "columns": [
+            "zone"
           ],
           "isUnique": true
         }

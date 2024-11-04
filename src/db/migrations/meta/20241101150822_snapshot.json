@@ -1,0 +1,1261 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "9cea46a5-e98d-4255-bc0a-286f4474b1e3",
+  "prevId": "f429b5a5-30c9-41a6-b87e-b5d19175489b",
+  "tables": {
+    "attack_button_character_move": {
+      "name": "attack_button_character_move",
+      "columns": {
+        "attack_button_id": {
+          "name": "attack_button_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "order_in_move": {
+          "name": "order_in_move",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_attack_button_character_move_order_set": {
+          "name": "unique_attack_button_character_move_order_set",
+          "columns": [
+            "attack_button_id",
+            "character_move_id",
+            "order_in_move"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "attack_button_character_move_attack_button_id_attack_buttons_id_fk": {
+          "name": "attack_button_character_move_attack_button_id_attack_buttons_id_fk",
+          "tableFrom": "attack_button_character_move",
+          "tableTo": "attack_buttons",
+          "columnsFrom": [
+            "attack_button_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "attack_button_character_move_character_move_id_character_moves_id_fk": {
+          "name": "attack_button_character_move_character_move_id_character_moves_id_fk",
+          "tableFrom": "attack_button_character_move",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "attack_button_game_notation": {
+      "name": "attack_button_game_notation",
+      "columns": {
+        "attack_button_id": {
+          "name": "attack_button_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_notation_id": {
+          "name": "game_notation_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_attack_button_game_notation_set": {
+          "name": "unique_attack_button_game_notation_set",
+          "columns": [
+            "attack_button_id",
+            "game_notation_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "attack_button_game_notation_attack_button_id_attack_buttons_id_fk": {
+          "name": "attack_button_game_notation_attack_button_id_attack_buttons_id_fk",
+          "tableFrom": "attack_button_game_notation",
+          "tableTo": "attack_buttons",
+          "columnsFrom": [
+            "attack_button_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "attack_button_game_notation_game_notation_id_game_notations_id_fk": {
+          "name": "attack_button_game_notation_game_notation_id_game_notations_id_fk",
+          "tableFrom": "attack_button_game_notation",
+          "tableTo": "game_notations",
+          "columnsFrom": [
+            "game_notation_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "attack_buttons": {
+      "name": "attack_buttons",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_shorthand": {
+          "name": "game_shorthand",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "button_count": {
+          "name": "button_count",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_game_attack_buttons": {
+          "name": "unique_game_attack_buttons",
+          "columns": [
+            "name",
+            "game_shorthand",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "attack_buttons_game_id_games_id_fk": {
+          "name": "attack_buttons_game_id_games_id_fk",
+          "tableFrom": "attack_buttons",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_move_character_move_condition": {
+      "name": "character_move_character_move_condition",
+      "columns": {
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "character_move_condition_id": {
+          "name": "character_move_condition_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_character_move_condition_set": {
+          "name": "unique_character_move_character_move_condition_set",
+          "columns": [
+            "character_move_id",
+            "character_move_condition_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_move_character_move_condition_character_move_id_character_moves_id_fk": {
+          "name": "character_move_character_move_condition_character_move_id_character_moves_id_fk",
+          "tableFrom": "character_move_character_move_condition",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_move_character_move_condition_character_move_condition_id_character_move_conditions_id_fk": {
+          "name": "character_move_character_move_condition_character_move_condition_id_character_move_conditions_id_fk",
+          "tableFrom": "character_move_character_move_condition",
+          "tableTo": "character_move_conditions",
+          "columnsFrom": [
+            "character_move_condition_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_move_conditions": {
+      "name": "character_move_conditions",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "condition": {
+          "name": "condition",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_conditions": {
+          "name": "unique_character_move_conditions",
+          "columns": [
+            "condition",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_move_conditions_game_id_games_id_fk": {
+          "name": "character_move_conditions_game_id_games_id_fk",
+          "tableFrom": "character_move_conditions",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_move_directional_input": {
+      "name": "character_move_directional_input",
+      "columns": {
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "directional_input_id": {
+          "name": "directional_input_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "order_in_move": {
+          "name": "order_in_move",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "character_move_directional_input_order_set": {
+          "name": "character_move_directional_input_order_set",
+          "columns": [
+            "character_move_id",
+            "directional_input_id",
+            "order_in_move"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_move_directional_input_character_move_id_character_moves_id_fk": {
+          "name": "character_move_directional_input_character_move_id_character_moves_id_fk",
+          "tableFrom": "character_move_directional_input",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_move_directional_input_directional_input_id_directional_inputs_id_fk": {
+          "name": "character_move_directional_input_directional_input_id_directional_inputs_id_fk",
+          "tableFrom": "character_move_directional_input",
+          "tableTo": "directional_inputs",
+          "columnsFrom": [
+            "directional_input_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_move_follow_ups": {
+      "name": "character_move_follow_ups",
+      "columns": {
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "follow_up_character_move_id": {
+          "name": "follow_up_character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_follow_up": {
+          "name": "unique_character_move_follow_up",
+          "columns": [
+            "character_move_id",
+            "follow_up_character_move_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_move_follow_ups_character_move_id_character_moves_id_fk": {
+          "name": "character_move_follow_ups_character_move_id_character_moves_id_fk",
+          "tableFrom": "character_move_follow_ups",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_move_follow_ups_follow_up_character_move_id_character_moves_id_fk": {
+          "name": "character_move_follow_ups_follow_up_character_move_id_character_moves_id_fk",
+          "tableFrom": "character_move_follow_ups",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "follow_up_character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_move_game_notation": {
+      "name": "character_move_game_notation",
+      "columns": {
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_notation_id": {
+          "name": "game_notation_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "order_in_move": {
+          "name": "order_in_move",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_game_notation_order_set": {
+          "name": "unique_character_move_game_notation_order_set",
+          "columns": [
+            "character_move_id",
+            "game_notation_id",
+            "order_in_move"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_move_game_notation_character_move_id_character_moves_id_fk": {
+          "name": "character_move_game_notation_character_move_id_character_moves_id_fk",
+          "tableFrom": "character_move_game_notation",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_move_game_notation_game_notation_id_game_notations_id_fk": {
+          "name": "character_move_game_notation_game_notation_id_game_notations_id_fk",
+          "tableFrom": "character_move_game_notation",
+          "tableTo": "game_notations",
+          "columnsFrom": [
+            "game_notation_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_moves": {
+      "name": "character_moves",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "resource_gain": {
+          "name": "resource_gain",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "resource_cost": {
+          "name": "resource_cost",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "meter_cost": {
+          "name": "meter_cost",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "meter_gain": {
+          "name": "meter_gain",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "hit_count": {
+          "name": "hit_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "ex_hit_count": {
+          "name": "ex_hit_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "damage": {
+          "name": "damage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "startup_frames": {
+          "name": "startup_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "active_frames": {
+          "name": "active_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "recovery_frames": {
+          "name": "recovery_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_hit": {
+          "name": "frames_on_hit",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_block": {
+          "name": "frames_on_block",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_counter_hit": {
+          "name": "frames_on_counter_hit",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "move_list_number": {
+          "name": "move_list_number",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_in_game": {
+          "name": "unique_character_move_in_game",
+          "columns": [
+            "name",
+            "character_id",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_moves_character_id_characters_id_fk": {
+          "name": "character_moves_character_id_characters_id_fk",
+          "tableFrom": "character_moves",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_moves_game_id_games_id_fk": {
+          "name": "character_moves_game_id_games_id_fk",
+          "tableFrom": "character_moves",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "characters": {
+      "name": "characters",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "archetype": {
+          "name": "archetype",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_game_character_pair": {
+          "name": "unique_game_character_pair",
+          "columns": [
+            "name",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "characters_game_id_games_id_fk": {
+          "name": "characters_game_id_games_id_fk",
+          "tableFrom": "characters",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "directional_input_game_notation": {
+      "name": "directional_input_game_notation",
+      "columns": {
+        "directional_input_id": {
+          "name": "directional_input_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_notation_id": {
+          "name": "game_notation_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_directional_input_game_notation_set": {
+          "name": "unique_directional_input_game_notation_set",
+          "columns": [
+            "directional_input_id",
+            "game_notation_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "directional_input_game_notation_directional_input_id_directional_inputs_id_fk": {
+          "name": "directional_input_game_notation_directional_input_id_directional_inputs_id_fk",
+          "tableFrom": "directional_input_game_notation",
+          "tableTo": "directional_inputs",
+          "columnsFrom": [
+            "directional_input_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "directional_input_game_notation_game_notation_id_game_notations_id_fk": {
+          "name": "directional_input_game_notation_game_notation_id_game_notations_id_fk",
+          "tableFrom": "directional_input_game_notation",
+          "tableTo": "game_notations",
+          "columnsFrom": [
+            "game_notation_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "directional_inputs": {
+      "name": "directional_inputs",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "direction": {
+          "name": "direction",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_shorthand": {
+          "name": "game_shorthand",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "numpad_notation": {
+          "name": "numpad_notation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_directional_inputs": {
+          "name": "unique_directional_inputs",
+          "columns": [
+            "direction"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "game_notations": {
+      "name": "game_notations",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "notation": {
+          "name": "notation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "notations_group": {
+          "name": "notations_group",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_game_game_notations": {
+          "name": "unique_game_game_notations",
+          "columns": [
+            "notation",
+            "description",
+            "game_id",
+            "notations_group"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "game_notations_game_id_games_id_fk": {
+          "name": "game_notations_game_id_games_id_fk",
+          "tableFrom": "game_notations",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "game_notations_character_id_characters_id_fk": {
+          "name": "game_notations_character_id_characters_id_fk",
+          "tableFrom": "game_notations",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "game_notations_character_move_id_character_moves_id_fk": {
+          "name": "game_notations_character_move_id_character_moves_id_fk",
+          "tableFrom": "game_notations",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "games": {
+      "name": "games",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "abbreviation": {
+          "name": "abbreviation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "buttons": {
+          "name": "buttons",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "games_title_unique": {
+          "name": "games_title_unique",
+          "columns": [
+            "title"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "hit_zones": {
+      "name": "hit_zones",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "zone": {
+          "name": "zone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_hit_zone": {
+          "name": "unique_hit_zone",
+          "columns": [
+            "zone"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}

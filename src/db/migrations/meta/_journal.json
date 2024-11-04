@@ -5,50 +5,113 @@
     {
       "idx": 0,
       "version": "6",
-      "when": 1725320625129,
-      "tag": "20240902234345_create_games_and_characters_table",
+      "when": 1729870862356,
+      "tag": "20241025154102_create_hit_zones_table",
       "breakpoints": true
     },
     {
       "idx": 1,
       "version": "6",
-      "when": 1727240319846,
-      "tag": "20240925045839_create_directional_inputs_table",
+      "when": 1729870895862,
+      "tag": "20241025154135_create_games_table",
       "breakpoints": true
     },
     {
       "idx": 2,
       "version": "6",
-      "when": 1727744760070,
-      "tag": "20241001010600_create_game_notations_table",
+      "when": 1729870915317,
+      "tag": "20241025154155_create_directional_inputs_table",
       "breakpoints": true
     },
     {
       "idx": 3,
       "version": "6",
-      "when": 1727758249058,
-      "tag": "20241001045049_adjust_unique_constraint_for_game_notations_table",
+      "when": 1729870931969,
+      "tag": "20241025154211_create_attack_buttons_table",
       "breakpoints": true
     },
     {
       "idx": 4,
       "version": "6",
-      "when": 1728239624747,
-      "tag": "20241006183344_create_attack_buttons_table",
+      "when": 1729871075756,
+      "tag": "20241025154435_create_characters_table",
       "breakpoints": true
     },
     {
       "idx": 5,
       "version": "6",
-      "when": 1728241767050,
-      "tag": "20241006190927_create_hit_zones_table",
+      "when": 1729871087233,
+      "tag": "20241025154447_create_character_moves_table",
       "breakpoints": true
     },
     {
       "idx": 6,
       "version": "6",
-      "when": 1728247376097,
-      "tag": "20241006204256_create_character_moves_table",
+      "when": 1729871098931,
+      "tag": "20241025154458_create_game_notations_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1729871198990,
+      "tag": "20241025154638_create_character_move_directional_input_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1729871242024,
+      "tag": "20241025154722_create_attack_button_character_move_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1729871277420,
+      "tag": "20241025154757_create_character_move_game_notation_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1730213315351,
+      "tag": "20241029144835_create_directional_input_game_notation_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1730300058292,
+      "tag": "20241030145418_create_attack_button_game_notation_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1730385835683,
+      "tag": "20241031144355_create_character_move_conditions_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1730391836838,
+      "tag": "20241031162356_create_character_move_character_move_condition_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1730473702160,
+      "tag": "20241101150822_create_character_move_follow_ups_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1730734456396,
+      "tag": "20241104153416_create_character_move_hit_zone_pivot_table",
       "breakpoints": true
     }
   ]

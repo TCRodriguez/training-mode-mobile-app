@@ -16,10 +16,3 @@ export const characters = sqliteTable(
   })
 );
 
-// integer('id', { mode: 'number' }).primaryKey({ autoIncrement: true });
-// integer('created_at', { mode: 'timestamp' });
-// integer('updated_at', { mode: 'timestamp' });
-
-// export default games;
-
-

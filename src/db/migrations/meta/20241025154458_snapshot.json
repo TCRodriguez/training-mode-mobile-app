@@ -1,8 +1,8 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "3c56ea37-c90e-41e6-a6bb-90100b6aead5",
-  "prevId": "cd5d903d-e300-479a-9c16-b077411d2b85",
+  "id": "a47da54e-4866-4375-81e7-c13a280ff203",
+  "prevId": "ce6c5b82-9166-468c-9223-ba54db941261",
   "tables": {
     "attack_buttons": {
       "name": "attack_buttons",
@@ -72,6 +72,206 @@
         "attack_buttons_game_id_games_id_fk": {
           "name": "attack_buttons_game_id_games_id_fk",
           "tableFrom": "attack_buttons",
+          "tableTo": "games",
+          "columnsFrom": [
+            "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "character_moves": {
+      "name": "character_moves",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "game_id": {
+          "name": "game_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "resource_gain": {
+          "name": "resource_gain",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "resource_cost": {
+          "name": "resource_cost",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "meter_cost": {
+          "name": "meter_cost",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "meter_gain": {
+          "name": "meter_gain",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "hit_count": {
+          "name": "hit_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "ex_hit_count": {
+          "name": "ex_hit_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "damage": {
+          "name": "damage",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "startup_frames": {
+          "name": "startup_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "active_frames": {
+          "name": "active_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "recovery_frames": {
+          "name": "recovery_frames",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_hit": {
+          "name": "frames_on_hit",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_block": {
+          "name": "frames_on_block",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "frames_on_counter_hit": {
+          "name": "frames_on_counter_hit",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "move_list_number": {
+          "name": "move_list_number",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_character_move_in_game": {
+          "name": "unique_character_move_in_game",
+          "columns": [
+            "name",
+            "character_id",
+            "game_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "character_moves_character_id_characters_id_fk": {
+          "name": "character_moves_character_id_characters_id_fk",
+          "tableFrom": "character_moves",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "character_moves_game_id_games_id_fk": {
+          "name": "character_moves_game_id_games_id_fk",
+          "tableFrom": "character_moves",
           "tableTo": "games",
           "columnsFrom": [
             "game_id"
@@ -206,7 +406,15 @@
           "autoincrement": false
         }
       },
-      "indexes": {},
+      "indexes": {
+        "unique_directional_inputs": {
+          "name": "unique_directional_inputs",
+          "columns": [
+            "direction"
+          ],
+          "isUnique": true
+        }
+      },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
@@ -242,11 +450,25 @@
           "notNull": true,
           "autoincrement": false
         },
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "character_move_id": {
+          "name": "character_move_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
         "notations_group": {
           "name": "notations_group",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false
         },
         "created_at": {
@@ -270,7 +492,8 @@
           "columns": [
             "notation",
             "description",
-            "game_id"
+            "game_id",
+            "notations_group"
           ],
           "isUnique": true
         }
@@ -282,6 +505,32 @@
           "tableTo": "games",
           "columnsFrom": [
             "game_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "game_notations_character_id_characters_id_fk": {
+          "name": "game_notations_character_id_characters_id_fk",
+          "tableFrom": "game_notations",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "game_notations_character_move_id_character_moves_id_fk": {
+          "name": "game_notations_character_move_id_character_moves_id_fk",
+          "tableFrom": "game_notations",
+          "tableTo": "character_moves",
+          "columnsFrom": [
+            "character_move_id"
           ],
           "columnsTo": [
             "id"
@@ -344,6 +593,51 @@
           "name": "games_title_unique",
           "columns": [
             "title"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "hit_zones": {
+      "name": "hit_zones",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "zone": {
+          "name": "zone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "unique_hit_zone": {
+          "name": "unique_hit_zone",
+          "columns": [
+            "zone"
           ],
           "isUnique": true
         }
