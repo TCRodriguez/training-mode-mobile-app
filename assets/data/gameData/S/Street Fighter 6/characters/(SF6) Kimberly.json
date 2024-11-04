@@ -274,8 +274,8 @@
                 "inputs": [
                     {
                         "group": "directions",
-                        "input": "",
-                        "notation": ""
+                        "input": "Neutral",
+                        "notation": "N"
                     }
                 ],
                 "conditions": ["Automatically activates after getting close with Sprint"],
