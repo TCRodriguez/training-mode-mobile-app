@@ -16,7 +16,7 @@ export const seedGameNotations = async () => {
 
   const now = new Date().toISOString();
 
-  const jsonFiles = await traverseDirectoryAndGetFiles('assets/data/gameData', [], 'Notations.json');
+  const jsonFiles = await traverseDirectoryAndGetFiles('data/gameData', [], 'Notations.json');
   const notationsData = await readJsonFiles(jsonFiles);
 
   try {

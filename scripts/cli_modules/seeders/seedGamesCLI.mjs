@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { confirm } from '@inquirer/prompts';
 import { fileURLToPath } from 'url';
-import gamesDataJSON from '../../../assets/data/gameData/Games.json' assert { type: "json" };
+import gamesDataJSON from '../../../data/gameData/Games.json' assert { type: "json" };
 import { checkIfDatabaseExists, dbInit } from '../utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);

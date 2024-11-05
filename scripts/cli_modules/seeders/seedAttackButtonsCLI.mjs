@@ -16,7 +16,7 @@ export const seedAttackButtons = async () => {
 
   const now = new Date().toISOString();
 
-  const jsonFiles = await traverseDirectoryAndGetFiles('assets/data/gameData', [], 'AttackButtons.json');
+  const jsonFiles = await traverseDirectoryAndGetFiles('data/gameData', [], 'AttackButtons.json');
   const attackButtonsData = await readJsonFiles(jsonFiles);
 
   try {

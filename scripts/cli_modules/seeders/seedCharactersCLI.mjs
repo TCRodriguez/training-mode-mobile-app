@@ -15,7 +15,7 @@ export const seedCharacters = async () => {
   checkIfDatabaseExists();
 
   try {
-    const jsonFiles = await traverseDirectoryAndGetFiles('assets/data/gameData', [], 'characters');
+    const jsonFiles = await traverseDirectoryAndGetFiles('data/gameData', [], 'characters');
     const characterData = await readJsonFiles(jsonFiles);
     // console.log('characterData:', characterData);
 

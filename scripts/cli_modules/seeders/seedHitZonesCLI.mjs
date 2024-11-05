@@ -5,7 +5,7 @@ import path from 'path';
 import { confirm } from '@inquirer/prompts';
 import { fileURLToPath } from 'url';
 import { checkIfDatabaseExists } from '../utils.mjs';
-import hitZonesJSON from '../../../assets/data/HitZones.json' assert { type: "json" };
+import hitZonesJSON from '../../../data/HitZones.json' assert { type: "json" };
 import { dbInit } from '../utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);

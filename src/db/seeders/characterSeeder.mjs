@@ -1,13 +1,13 @@
 import { openDatabaseSync } from 'expo-sqlite/next';
 import * as FileSystem from 'expo-file-system';
-// import gamesDataJSON from '../../../assets/data/gameData';
+// import gamesDataJSON from '../../../data/gameData';
 import { DATABASE_NAME } from '@env';
 import { importJSONFilesFromDirectory } from '../../helpers/recursiveJSONImporter';
 
 export const seedCharacters = async () => {
   try {
     console.log('Seeding characters...');
-    const charactersDataJSON = await importJSONFilesFromDirectory('../../../assets/data/gameData');
+    const charactersDataJSON = await importJSONFilesFromDirectory('../../../data/gameData');
 
     console.log('charactersDataJSON:', charactersDataJSON);
 

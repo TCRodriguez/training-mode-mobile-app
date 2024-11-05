@@ -14,7 +14,7 @@ dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
 export const seedCharacterMoves = async () => {
   checkIfDatabaseExists();
 
-  const jsonFiles = await traverseDirectoryAndGetFiles('assets/data/gameData', [], 'characters');
+  const jsonFiles = await traverseDirectoryAndGetFiles('data/gameData', [], 'characters');
   const characterData = await readJsonFiles(jsonFiles);
 
   const now = new Date().toISOString();

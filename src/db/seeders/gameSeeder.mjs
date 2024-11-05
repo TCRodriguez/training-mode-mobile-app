@@ -1,6 +1,6 @@
 import { openDatabaseSync } from 'expo-sqlite/next';
 import * as FileSystem from 'expo-file-system';
-import gamesDataJSON from '../../../assets/data/gameData/Games.json';
+import gamesDataJSON from '../../../data/gameData/Games.json';
 import { DATABASE_NAME } from '@env';
 
 export const seedGames = async () => {
