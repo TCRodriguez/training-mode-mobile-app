@@ -12,12 +12,8 @@ import FistIcon from './assets/icons/FistIcon';
 import CharacterCombosScreen from './src/screens/CharacterCombosScreen';
 import { drizzle } from 'drizzle-orm/expo-sqlite';
 import { openDatabaseSync } from 'expo-sqlite/next';
-import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
-import migrations from './src/db/migrations/migrations';
 import { useDrizzleStudio } from 'expo-drizzle-studio-plugin';
 import * as FileSystem from 'expo-file-system';
-import { seedGames } from './src/db/seeders/gameSeeder.mjs';
-import { seedCharacters } from './src/db/seeders/characterSeeder.mjs';
 import { DATABASE_NAME } from '@env';
 
 // const expoDb = openDatabaseSync(`${DATABASE_NAME}.db`);
@@ -26,55 +22,32 @@ import { DATABASE_NAME } from '@env';
 
 const Tab = createBottomTabNavigator();
 
+// Function to print the contents of a directory
+async function printDirectoryContents() {
+  try {
+    // Specify the directory you want to inspect
+    const directoryPath = `${FileSystem.documentDirectory}SQLite`;
+
+    // Check if the directory exists
+    const dirInfo = await FileSystem.getInfoAsync(directoryPath);
+    if (dirInfo.exists) {
+      // Read the contents of the directory
+      const contents = await FileSystem.readDirectoryAsync(directoryPath);
+      console.log(`Contents of ${directoryPath}:`, contents);
+    } else {
+      console.log(`Directory ${directoryPath} does not exist.`);
+    }
+  } catch (error) {
+    console.error('Error reading directory contents:', error);
+  }
+}
+
 export default function App() {
-  // const dbFilePath = `${FileSystem.documentDirectory}SQLite/${DATABASE_NAME}.db`;
-  // console.log('Database file path:', dbFilePath);
 
-  // useDrizzleStudio(expoDb);
-  // const { success, error } = useMigrations(db, migrations);
-  //
-  // useEffect(() => {
-  //   const initializeDatabase = async () => {
-  //     console.log('Initializing database...');
-  //     try {
-  //       console.log('Seeding games...')
-  //       await seedGames();
-  //
-  //       console.log('Finished seeding games');
-  //     } catch (error) {
-  //       console.error('Error seeding games:', error);
-  //     }
-  //     console.log('Seeding characters...')
-  //     await seedCharacters();
-  //     console.log('Finished seeding chaacters');
-  //   };
-  //
-  //   if (success) {
-  //     initializeDatabase();
-  //   }
-  // }, [success, dbFilePath]);
-  //
-  //
-  //
-  //
-  //
-  //
-  // if (error) {
-  //   return (
-  //     <View>
-  //       <Text>Migration error: {error.message}</Text>
-  //     </View>
-  //   );
-  // }
-  // if (!success) {
-  //   return (
-  //     <View>
-  //       <Text>Migration is in progress...</Text>
-  //     </View>
-  //   );
-  // }
+  useEffect(() => {
+    printDirectoryContents();
 
-
+  }, []);
 
 
 

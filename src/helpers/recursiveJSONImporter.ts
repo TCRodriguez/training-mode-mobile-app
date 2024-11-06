@@ -1,5 +1,5 @@
 import * as FileSystem from 'expo-file-system';
-import gameData from '../../data/gameData';
+import gameData from '../../data/gameData/Games.json';
 
 
 

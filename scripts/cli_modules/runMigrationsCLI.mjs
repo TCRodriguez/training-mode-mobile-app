@@ -25,7 +25,7 @@ export const runMigrations = async () => {
   }
 
   try {
-    const sqlite = new Database(`${DATABASE_NAME}.db`);
+    const sqlite = new Database(`${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`);
     const db = drizzle(sqlite);
     console.log('Database opened successfully.');
     console.log('Running migrations...');

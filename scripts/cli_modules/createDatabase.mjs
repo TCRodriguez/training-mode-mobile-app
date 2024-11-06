@@ -25,7 +25,7 @@ export const createDatabase = async () => {
 
   try {
 
-    const db = new Database(`${DATABASE_NAME}.db`);
+    const db = new Database(`assets/${DATABASE_NAME}.db`);
     db.pragma('foreign_keys = ON');
 
     console.log('Database file created');
