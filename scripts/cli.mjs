@@ -20,8 +20,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
-const DATABASE_NAME = process.env.DATABASE_NAME;
-const DATABASE_DIRECTORY_PATH = process.env.DATABASE_DIRECTORY_PATH;
+const DATABASE_NAME = process.env.EXPO_PUBLIC_DEV_DATABASE_NAME;
+const DATABASE_DIRECTORY_PATH = process.env.EXPO_PUBLIC_DEV_DATABASE_DIRECTORY_PATH;
 
 const deleteDeviceDatabase = async (dbName) => {
   const dbDirectoryPath = `/Users/tonatiuhrodriguez/Library/Developer/CoreSimulator/Devices/5159F7D9-1881-4D1D-BC54-B942C3FBFAB7/data/Containers/Data/Application/4807872D-5DA9-4804-B031-BF1FA9163E29/Documents/SQLite`;

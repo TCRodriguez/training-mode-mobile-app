@@ -9,8 +9,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
-const DATABASE_NAME = process.env.DATABASE_NAME;
-const DATABASE_DIRECTORY_PATH = process.env.DATABASE_DIRECTORY_PATH;
+const DATABASE_NAME = process.env.EXPO_PUBLIC_DEV_DATABASE_NAME;
+const DATABASE_DIRECTORY_PATH = process.env.EXPO_PUBLIC_DEV_DATABASE_DIRECTORY_PATH;
 
 export const checkIfDatabaseExists = () => {
   if (fs.existsSync(`${DATABASE_DIRECTORY_PATH}/${DATABASE_NAME}.db`)) {
