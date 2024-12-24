@@ -11,7 +11,7 @@ import { createDatabase } from './cli_modules/createDatabase.mjs';
 import { seedDatabase } from './cli_modules/seedDatabase.mjs';
 import { deleteDatabase } from './cli_modules/deleteDatabase.mjs';
 import { deleteResource } from './cli_modules/data_model_actions/deleteResource.mjs';
-import { dbInit } from './cli_modules/utils.mjs';
+import { dbInit, updateMetadata } from './cli_modules/utils.mjs';
 
 
 sqlite3.verbose();
@@ -140,12 +140,6 @@ const mapSQLiteTypeToMSTType = (sqliteType) => {
 
 
 
-
-
-
-
-
-
 // Function to list all tables in the database
 const listTables = async (dbName) => {
   let db;
@@ -171,7 +165,6 @@ const listTables = async (dbName) => {
 
 
 
-// CLI Commands
 // CLI Commands
 const commands = {
   'db:nuke-device-db': {
@@ -240,6 +233,14 @@ const commands = {
       await deleteResource(resourceName, resourceId);
     },
   },
+  //TODO: Add commandn to update metadata value
+  // 'metadata:update': {
+  //   description: 'Updates a metadata value in the database.',
+  //   parameters: ['key', 'value'],
+  //   action: async (key, value) => {
+  //     await updateMetadata(key, value);
+  //   },
+  // },
   'cli:commands': {
     description: 'Lists all available CLI commands along with their descriptions and parameters.',
     parameters: [],

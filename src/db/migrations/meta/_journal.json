@@ -113,6 +113,13 @@
       "when": 1730734456396,
       "tag": "20241104153416_create_character_move_hit_zone_pivot_table",
       "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1731114734550,
+      "tag": "20241109011214_create_metadata_table",
+      "breakpoints": true
     }
   ]
 }

@@ -10,6 +10,7 @@ import { seedAttackButtons } from './seeders/seedAttackButtonsCLI.mjs';
 import { seedHitZones } from './seeders/seedHitZonesCLI.mjs';
 import { seedCharacterMoves } from './seeders/seedCharacterMovesCLI.mjs';
 import { checkIfDatabaseExists } from './utils.mjs';
+// import { seedMetadata } from './seeders/seedMetadataCLI.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -38,6 +39,7 @@ export const seedDatabase = async (seeder = 'all') => {
       await seedCharacters();
       await seedCharacterMoves();
       await seedGameNotations();
+      // await seedMetadata();
     } else if (seeder === 'games') {
       console.log('Games seeder running...');
       await seedGames();

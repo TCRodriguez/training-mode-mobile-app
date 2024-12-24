@@ -35,16 +35,84 @@ export const dbInit = async () => {
   }
 }
 
-export const checkIfResourceExists = async (table, column, foreignKeys) => {
-  const db = await dbInit();
-  const doesResourceExist = db.prepare(`SELECT * FROM ${table} WHERE ${column} = ?`).get();
+// TODO: Flagging to potentially remove this function
+// export const checkIfResourceExists = async (table, column, foreignKeys) => {
+//   const db = await dbInit();
+//   const doesResourceExist = db.prepare(`SELECT * FROM ${table} WHERE ${column} = ?`).get();
+//
+//   if (doesResourceExist) {
+//     console.log(`${column} resouce already exists:`, column);
+//   } else {
+//     console.log('hitZoneToBeInserted:', hitZoneToBeInserted);
+//     insertHitZonesStatement.run(hitZoneToBeInserted);
+//   }
+//
+//   return doesResourceExist;
+// }
 
-  if (doesResourceExist) {
-    console.log(`${column} resouce already exists:`, column);
-  } else {
-    console.log('hitZoneToBeInserted:', hitZoneToBeInserted);
-    insertHitZonesStatement.run(hitZoneToBeInserted);
-  }
+// export const updateMetadata = async (key, value) => {
+//   const isValidVersionFormat = (value) => {
+//     // The regex checks for three groups of digits separated by dots
+//     const versionRegex = /^\d+\.\d+\.\d+$/;
+//     return versionRegex.test(value);
+//   };
 
-  return doesResourceExist;
-}
+//   if (key === 'static_game_data_version') {
+//     // Validate the version format
+//     if (!isValidVersionFormat(value)) {
+//       console.log('Invalid version format:', value);
+//       console.log('Please use the following format: x.x.x');
+
+//       return;
+//     }
+//   }
+
+//   const db = await dbInit();
+
+//   const metadataToUpdate = { 'key': key, 'value': value };
+//   console.log('metadataToUpdate:', metadataToUpdate);
+//   // return;
+
+//   const metadataFromDB = db.prepare(`SELECT * FROM metadata WHERE key = ?`).get(metadataToUpdate.key);
+//   if (!metadataFromDB) {
+//     console.log('Metadata does not exist:', metadataToUpdate.key);
+//     return;
+//   }
+
+//   if (metadataFromDB.value === metadataToUpdate.value) {
+//     console.log(`${metadataToUpdate.key} is already set to:`, metadataToUpdate.value);
+//     return;
+//   }
+
+//   const updateMetadataStatement = db.prepare(`UPDATE metadata SET value = ? WHERE key = ?`);
+//   const handleUpdate = async (metadata) => {
+
+//     // TODO: Putting this here to double check that the value in the globalConstants.ts file has been updated.
+//     // Can remove once we can import the globalConstants.ts file properly
+//     const doubleCheckAnswer = await confirm({ message: `Did you check/update the value in the globalConstants.ts file already?` });
+//     if (doubleCheckAnswer === false) {
+//       console.log('Please update the value in the globalConstants.ts file first.');
+//       return;
+//     }
+
+//     const answer = await confirm({ message: `Are you sure you want to update the ${metadata.key} value from ${metadataFromDB.value} to ${metadata.value}?` });
+
+//     if (answer === true) {
+//       try {
+//         const updateMetadataTransaction = db.transaction((metadata) => {
+//           const info = updateMetadataStatement.run(metadata.value, metadata.key);
+//           console.log('Metadata updated:', info);
+//         });
+
+//         updateMetadataTransaction(metadata);
+//       } catch (error) {
+//         console.error('Error updating metadata:', error);
+//       }
+//     } else {
+//       console.log('Metadata update cancelled.');
+//     }
+//   }
+
+//   await handleUpdate(metadataToUpdate);
+// }
+

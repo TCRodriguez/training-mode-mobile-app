@@ -17,6 +17,7 @@ import m0012 from './20241031144355_create_character_move_conditions_table.sql';
 import m0013 from './20241031162356_create_character_move_character_move_condition_pivot_table.sql';
 import m0014 from './20241101150822_create_character_move_follow_ups_pivot_table.sql';
 import m0015 from './20241104153416_create_character_move_hit_zone_pivot_table.sql';
+import m0016 from './20241109011214_create_metadata_table.sql';
 
   export default {
     journal,
@@ -36,7 +37,8 @@ m0011,
 m0012,
 m0013,
 m0014,
-m0015
+m0015,
+m0016
     }
   }
   
