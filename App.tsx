@@ -10,45 +10,34 @@ import DocumentIcon from './assets/icons/DocumentIcon';
 import ListIcon from './assets/icons/ListIcon';
 import FistIcon from './assets/icons/FistIcon';
 import CharacterCombosScreen from './src/screens/CharacterCombosScreen';
-import { drizzle } from 'drizzle-orm/expo-sqlite';
-import { openDatabaseSync } from 'expo-sqlite/next';
-import { useDrizzleStudio } from 'expo-drizzle-studio-plugin';
 import * as FileSystem from 'expo-file-system';
-import { DATABASE_NAME } from '@env';
+import {
+  copyStaticDatabaseToDevice,
+  printDirectoryContents,
+} from './src/helpers/deviceDBHelpers';
+import { updateStaticGameDataOnDevice } from './src/helpers/updateStaticGameDataOnDevice';
 
-// const expoDb = openDatabaseSync(`${DATABASE_NAME}.db`);
-//
-// const db = drizzle(expoDb);
 
 const Tab = createBottomTabNavigator();
 
-// Function to print the contents of a directory
-async function printDirectoryContents() {
-  try {
-    // Specify the directory you want to inspect
-    const directoryPath = `${FileSystem.documentDirectory}SQLite`;
-
-    // Check if the directory exists
-    const dirInfo = await FileSystem.getInfoAsync(directoryPath);
-    if (dirInfo.exists) {
-      // Read the contents of the directory
-      const contents = await FileSystem.readDirectoryAsync(directoryPath);
-      console.log(`Contents of ${directoryPath}:`, contents);
-    } else {
-      console.log(`Directory ${directoryPath} does not exist.`);
-    }
-  } catch (error) {
-    console.error('Error reading directory contents:', error);
-  }
-}
 
 export default function App() {
-
   useEffect(() => {
-    printDirectoryContents();
+    // Define an async function inside the useEffect
+    const initializeDatabase = async () => {
+      // await printDirectoryContents(`${FileSystem.documentDirectory}SQLite`);
 
+      // Copy the database to the device if it doesn't exist
+      await copyStaticDatabaseToDevice();
+
+
+      // Update the static game data on the device if the version is different
+      await updateStaticGameDataOnDevice();
+    };
+
+    // Call the async function
+    initializeDatabase();
   }, []);
-
 
 
   return (
