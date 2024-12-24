@@ -43,3 +43,4 @@ yarn-error.*
 
 # local db files
 training_mode_local.db
+assets/training_mode_local_dev.db
