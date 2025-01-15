@@ -11,7 +11,8 @@ import { createDatabase } from './cli_modules/createDatabase.mjs';
 import { seedDatabase } from './cli_modules/seedDatabase.mjs';
 import { deleteDatabase } from './cli_modules/deleteDatabase.mjs';
 import { deleteResource } from './cli_modules/data_model_actions/deleteResource.mjs';
-import { dbInit, updateMetadata } from './cli_modules/utils.mjs';
+import { dbInit } from './cli_modules/utils.mjs';
+import { addChangelogEntry } from './cli_modules/addChangelogEntry.mjs';
 
 
 sqlite3.verbose();
@@ -241,6 +242,13 @@ const commands = {
   //     await updateMetadata(key, value);
   //   },
   // },
+  'changelog:add': {
+    description: 'Adds a new entry to the changelog.',
+    parameters: [],
+    action: async () => {
+      await addChangelogEntry();
+    },
+  },
   'cli:commands': {
     description: 'Lists all available CLI commands along with their descriptions and parameters.',
     parameters: [],
