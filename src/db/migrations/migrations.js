@@ -18,6 +18,8 @@ import m0013 from './20241031162356_create_character_move_character_move_conditi
 import m0014 from './20241101150822_create_character_move_follow_ups_pivot_table.sql';
 import m0015 from './20241104153416_create_character_move_hit_zone_pivot_table.sql';
 import m0016 from './20241109011214_create_metadata_table.sql';
+import m0017 from './20250109043409_create_changelog_table.sql';
+import m0018 from './20250204234657_add_character_id_unique_constraint_to_game_notations_table.sql';
 
   export default {
     journal,
@@ -38,7 +40,9 @@ m0012,
 m0013,
 m0014,
 m0015,
-m0016
+m0016,
+m0017,
+m0018
     }
   }
   

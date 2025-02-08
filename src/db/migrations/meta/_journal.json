@@ -120,6 +120,20 @@
       "when": 1731114734550,
       "tag": "20241109011214_create_metadata_table",
       "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1736397249222,
+      "tag": "20250109043409_create_changelog_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1738712817347,
+      "tag": "20250204234657_add_character_id_unique_constraint_to_game_notations_table",
+      "breakpoints": true
     }
   ]
 }

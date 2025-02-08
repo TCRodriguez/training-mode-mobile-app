@@ -11,6 +11,13 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
 
 export const addChangelogEntry = async () => {
+
+  const haveChangesToJSONFilesBeenMadeAnswer = await confirm({ message: 'Have you already made the changes to the JSON "source of truth" files?' });
+  if (haveChangesToJSONFilesBeenMadeAnswer === false) {
+    console.log('No changes have been made to the JSON "source of truth" files. Process cancelled.');
+    process.exit(1);
+  }
+
   const gameTitles = gamesDataJSON.map((game) => {
     return {
       name: game.title,

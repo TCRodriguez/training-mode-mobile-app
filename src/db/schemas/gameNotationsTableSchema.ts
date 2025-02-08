@@ -17,7 +17,7 @@ export const gameNotations = sqliteTable(
     updatedAt: integer('updated_at', { mode: 'timestamp' }).notNull(),
   },
   (table) => ({
-    unq: unique('unique_game_game_notations').on(table.notation, table.description, table.gameId, table.notationsGroup),
+    unq: unique('unique_game_game_notations').on(table.notation, table.description, table.gameId, table.characterId, table.notationsGroup),
   })
 );
 

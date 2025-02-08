@@ -5,9 +5,13 @@ import { metadata } from '../db/schemas/metadataTableSchema';
 import { drizzle } from 'drizzle-orm/expo-sqlite';
 import { eq } from 'drizzle-orm';
 import { openDatabaseSync } from 'expo-sqlite/next';
+import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
+import migrations from '../db/migrations/migrations';
+import { games } from '../db/schemas/gamesTableSchema';
 
 const localDevDbName = process.env.EXPO_PUBLIC_LOCAL_DEV_DATABASE_NAME;
 const deviceDBName = process.env.EXPO_PUBLIC_DEVICE_DATABASE_NAME;
+// Is `training_mode_local_dev.db` in codebase, but `training_mode_static_game_data.db` in bundled `assets` folder
 const deviceStaticGameDataDBName = process.env.EXPO_PUBLIC_DEVICE_STATIC_GAME_DATA_DATABASE_NAME;
 const deviceDbAssetPath = `${FileSystem.documentDirectory}SQLite/${deviceDBName}.db`;
 const deviceStaticGameDataDbAssetPath = `${FileSystem.documentDirectory}SQLite/${deviceStaticGameDataDBName}.db`;
@@ -21,6 +25,7 @@ export const checkIfDeviceDatabaseFileExists = async () => {
     return false;
   } else {
     return true;
+
   }
 }
 
@@ -36,6 +41,27 @@ export const checkIfStaticGameDataDatabaseFileExists = async () => {
     return true;
   }
 }
+
+// export const runMigrationsForDeviceDB = async () => {
+//
+//   const expoDb = openDatabaseSync(`${deviceDBName}.db`); // Ensure the name matches your copied file
+//   const db = drizzle(expoDb);
+//
+//   const { success, error } = useMigrations(db, migrations);
+//
+//   if (error) {
+//     console.error('Error running migrations:', error);
+//     return;
+//   }
+//
+//   if (!success) {
+//     console.log('Migrations running...');
+//   }
+//
+//   if (success) {
+//     console.log('Migrations ran successfully.');
+//   }
+// }
 
 
 export const deviceDBInit = async () => {
@@ -69,6 +95,11 @@ export const deviceStaticGameDataDBInit = async () => {
     staticGameDataDBFile = Asset.fromModule(require('../../assets/training_mode_local_dev.db'));
     await staticGameDataDBFile.downloadAsync();
 
+    if (!staticGameDataDBFile.localUri) {
+      throw new Error("Database file failed to download or resolve a local URI.");
+    }
+
+
     await FileSystem.makeDirectoryAsync(`${FileSystem.documentDirectory}SQLite`, { intermediates: true });
     // Copies to static game data file to device to make it accessible
     await FileSystem.copyAsync({
@@ -76,7 +107,10 @@ export const deviceStaticGameDataDBInit = async () => {
       to: deviceStaticGameDataDbAssetPath,
     });
 
+    console.log('Static game data database file copied to device successfully.');
+
     console.log('Static game data database file name:', staticGameDataDBFile?.name);
+    console.log('Should match:', process.env.EXPO_PUBLIC_DEVICE_STATIC_GAME_DATA_DATABASE_NAME);
 
     expoDb = openDatabaseSync(`${process.env.EXPO_PUBLIC_DEVICE_STATIC_GAME_DATA_DATABASE_NAME}.db`); // Ensure the name matches your copied file
     db = drizzle(expoDb);
@@ -112,7 +146,15 @@ export const copyStaticDatabaseToDevice = async () => {
     // Check if the database already exists
     const doesDeviceDBFileExist = await checkIfDeviceDatabaseFileExists();
 
-    if (!doesDeviceDBFileExist) {
+
+
+    // Opens a connection to the device database to check if the games table is empty
+    // If it is, we will copy the database from the assets folder so that it gets all of the game data
+    const deviceDB = await deviceDBInit();
+    const dbTest = await deviceDB?.select().from(games);
+    // console.log('Games table from device DB:', dbTest);
+
+    if (!doesDeviceDBFileExist || dbTest?.length === 0) {
       console.log('Database does not exist, copying from assets...');
 
       // Load the asset from the bundled location
@@ -197,4 +239,22 @@ export const createBackupOfDeviceDatabase = async () => {
   }
 }
 
+export const extractMultiColumnUniqueConstraints = (tableSchema: any): string[] => {
+  // Check if unique constraints exist
+  if (tableSchema.unq?.columns) {
+    return tableSchema.unq.columns.map((col: any) => col.name || col);
+  }
 
+  // Fallback: Check for symbol-based metadata
+  const symbolKeys = Object.getOwnPropertySymbols(tableSchema);
+  for (const symbol of symbolKeys) {
+    const symbolData = tableSchema[symbol];
+
+    // Look for unique constraints in symbol-based metadata
+    if (symbolData && symbolData.uniqueKeys) {
+      return Object.keys(symbolData.uniqueKeys);
+    }
+  }
+
+  throw new Error('No multi-column unique constraints found in the schema!');
+};
