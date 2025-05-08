@@ -13,28 +13,28 @@ import { deviceDBInit } from '../helpers/deviceDBHelpers';
 const deviceDBName = process.env.EXPO_PUBLIC_DEVICE_DATABASE_NAME || 'default.db';
 
 // const expoDb = openDatabaseSync(`${deviceDBName}.db`); // Ensure the name matches your copied file
-// const db = await deviceDBInit();
 const SettingsScreen = () => {
 
   const [gamesData, setGamesData] = useState<any[]>([]);
 
   // Function to fetch games from the database
   const fetchGames = async () => {
-    // try {
-    //   const results = await db.select().from(games);
-    //
-    //   const formattedGames = results.map((game) => {
-    //     // Return only the necessary fields, excluding created_at and updated_at
-    //     const { created_at, updated_at, ...rest } = game;
-    //     return rest;
-    //   });
-    //
-    //   console.log(formattedGames);
-    //   setGamesData(formattedGames);
-    //
-    // } catch (error) {
-    //   console.error('Error fetching games:', error);
-    // }
+    const db = await deviceDBInit();
+    try {
+      const results = await db.select().from(games);
+    
+      const formattedGames = results.map((game) => {
+        // Return only the necessary fields, excluding created_at and updated_at
+        const { created_at, updated_at, ...rest } = game;
+        return rest;
+      });
+    
+      console.log(formattedGames);
+      setGamesData(formattedGames);
+    
+    } catch (error) {
+      console.error('Error fetching games:', error);
+    }
   };
 
   // Fetch games on component mount

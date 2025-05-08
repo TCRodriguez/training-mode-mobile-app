@@ -7,7 +7,6 @@ import {
 import { STATIC_GAME_DATA_VERSION } from '../globalConstants';
 import { extractUniqueConstraints } from './deviceDBHelpers';
 
-//TODO: Add in the various table imports?
 import { games } from '../db/schemas/gamesTableSchema';
 import { characters } from '../db/schemas/charactersTableSchema';
 import { characterMoves } from '../db/schemas/characterMovesTableSchema';
@@ -21,8 +20,6 @@ import {
   type SelectGameNotations,
   type SelectChangelog,
 } from '../types/dbTableTypes';
-
-
 
 export const updateStaticGameDataOnDevice = async () => {
 
@@ -129,19 +126,13 @@ export const updateStaticGameDataOnDevice = async () => {
       try {
         await deviceDB?.transaction(async (tx) => {
           for (const gameNotation of gameNotationsDataFromStaticGameDataDB) {
-            if (gameNotation.characterId === 209) {
-              console.log('gameNotation.notation:', gameNotation.notation);
-
-            }
-
-            // TODO: LEFT OFF HERE
             // expoDb = openDatabaseSync(`${process.env.EXPO_PUBLIC_DEVICE_STATIC_GAME_DATA_DATABASE_NAME}.db`); // Ensure the name matches your copied file
             // process.env.EXPO_PUBLIC_DEVICE_DATABASE_NAME;
             // Will it work if we instead use the `expo-sqlite` db instance instead of the drizzle ORM one?
             // That way we can execute raw SQL queries, which would enable us to use that `COALESCE` function to address the `character_id` issue?
 
-            const testStatement = sql`select * from game_notations where character_id = ${gameNotation.characterId}`;
-            const testStatementResponse: unknown[] = deviceDB?.all(testStatement);
+            // const testStatement = sql`select * from game_notations where character_id = ${gameNotation.characterId}`;
+            // const testStatementResponse: unknown[] = deviceDB?.all(testStatement);
             // console.log('testStatementResponse:', testStatementResponse);
             // Didn't work
             // We may need to just update the unique constraints on the `game_notations` table to not include the `character_id` field
@@ -177,12 +168,7 @@ export const updateStaticGameDataOnDevice = async () => {
                   updatedAt: new Date(),
                 },
               });
-
-
-
           }
-
-
 
           // Add change log record to device DB
           await tx.insert(changelog).values({
@@ -194,8 +180,6 @@ export const updateStaticGameDataOnDevice = async () => {
           }).onConflictDoNothing({
             target: [changelog.uuid],
           });
-
-
         });
       } catch (error) {
 
@@ -213,7 +197,6 @@ export const updateStaticGameDataOnDevice = async () => {
 
 
   // TODO: Do we do the checking of the static game data here? Outside of the forEach loop above?
-
 
 
   return;
