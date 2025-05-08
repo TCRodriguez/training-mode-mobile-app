@@ -1,0 +1,255 @@
+[
+    {"direction": "Up Back", "numpad_notation": "7", "game_shorthand": "ub",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12", "Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-ub.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-ub.svg"
+            }
+
+        ]
+    },
+    {"direction": "Up Back (hold)", "numpad_notation": "7", "game_shorthand": "ubh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12", "Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-ubp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-ubh.svg"
+            }
+        ]
+    },
+    {"direction": "Up", "numpad_notation": "8", "game_shorthand": "u",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-u.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-u.svg"
+            }
+        ]
+    },
+    {"direction": "Up (hold)", "numpad_notation": "8", "game_shorthand": "uh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-up.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-uh.svg"
+            }
+        ]
+    },
+    {"direction": "Up Forward", "numpad_notation": "9", "game_shorthand": "uf",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12", "Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-uf.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-uf.svg"
+            }
+        ]
+    },
+    {"direction": "Up Forward (hold)", "numpad_notation": "9", "game_shorthand": "ufh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 12", "Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-ufp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-ufh.svg"
+            }
+        ]
+    },
+    {"direction": "Back", "numpad_notation": "4", "game_shorthand": "b",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-b.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-b.svg"
+            }
+        ]
+    },
+    {"direction": "Back (hold)", "numpad_notation": "4", "game_shorthand": "bh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-bp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-bh.svg"
+            }
+        ]
+    },
+    {"direction": "Neutral", "numpad_notation": "5", "game_shorthand": "n",
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-n.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-n.svg"
+            }
+        ]
+    },
+    {"direction": "Forward", "numpad_notation": "6", "game_shorthand": "f",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-f.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-f.svg"
+            }
+        ]
+    },
+    {"direction": "Forward (hold)", "numpad_notation": "6", "game_shorthand": "fh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-fp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-fh.svg"
+            }
+        ]
+    },
+    {"direction": "Down Back", "numpad_notation": "1", "game_shorthand": "db",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13", "Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-db.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-db.svg"
+            }
+        ]
+    },
+    {"direction": "Down Back (hold)", "numpad_notation": "1", "game_shorthand": "dbh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13", "Button 14"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-dbp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-dbh.svg"
+            }
+        ]
+    },
+    {"direction": "Down", "numpad_notation": "2", "game_shorthand": "d",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-d.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-d.svg"
+            }
+        ]
+    },
+    {"direction": "Down (hold)", "numpad_notation": "2", "game_shorthand": "dh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-dp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-dh.svg"
+            }
+        ]
+    },
+    {"direction": "Down Forward", "numpad_notation": "3", "game_shorthand": "df",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13", "Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-df.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-df.svg"
+            }
+        ]
+    },
+    {"direction": "Down Forward (hold)", "numpad_notation": "3", "game_shorthand": "dfh",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": ["Button 13", "Button 15"] }
+        ],
+        "icon": [
+            {
+                "game": "Tekken 7",
+                "icon_file_name": "t7-dfp.svg"
+            },
+            {
+                "game": "Street Fighter 6",
+                "icon_file_name": "sf6-dfh.svg"
+            }
+        ]
+    }
+]

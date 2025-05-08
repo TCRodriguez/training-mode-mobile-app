@@ -1,0 +1,27 @@
+[
+    {
+        "device_name": "DualShock 4",
+        "device_hardware_id": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+        "device_buttons": [
+            { "hardware_name": "Button 0", "face_value": "Cross", "category": "face" },
+            { "hardware_name": "Button 1", "face_value": "Circle", "category": "face" },
+            { "hardware_name": "Button 2", "face_value": "Square", "category": "face" },
+            { "hardware_name": "Button 3", "face_value": "Triangle", "category": "face" },
+            { "hardware_name": "Button 4", "face_value": "L1", "category": "shoulder" },
+            { "hardware_name": "Button 5", "face_value": "R1", "category": "shoulder" },
+            { "hardware_name": "Button 6", "face_value": "L2", "category": "shoulder" },
+            { "hardware_name": "Button 7", "face_value": "R2", "category": "shoulder" },
+            { "hardware_name": "Button 8", "face_value": "Select", "category": "function" },
+            { "hardware_name": "Button 9", "face_value": "Start", "category": "function" },
+            { "hardware_name": "Button 10", "face_value": "L3", "category": "misc" },
+            { "hardware_name": "Button 11", "face_value": "R3", "category": "misc" },
+            { "hardware_name": "Button 12", "face_value": "Up", "category": "dpad" },
+            { "hardware_name": "Button 13", "face_value": "Down", "category": "dpad" },
+            { "hardware_name": "Button 14", "face_value": "Back", "category": "dpad" },
+            { "hardware_name": "Button 15", "face_value": "Forward", "category": "dpad" },
+            { "hardware_name": "Button 16", "face_value": "PS", "category": "function" },
+            { "hardware_name": "Button 17", "face_value": "Touchpad", "category": "misc" }
+        ],
+        "device_type": "gamepad"
+    }
+]

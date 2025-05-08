@@ -1,0 +1,22 @@
+[
+    {"name": "Front Punch", "button_count": "1", "game": "Mortal Kombat 1", "game_shorthand": "1", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Back Punch", "button_count": "1", "game": "Mortal Kombat 1", "game_shorthand": "2", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Front Kick", "button_count": "1", "game": "Mortal Kombat 1", "game_shorthand": "3", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Back Kick", "button_count": "1", "game": "Mortal Kombat 1", "game_shorthand": "4", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    }
+]

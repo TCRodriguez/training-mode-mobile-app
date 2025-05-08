@@ -1,0 +1,127 @@
+[
+    {
+        "character": "Armor King",
+        "inputs": [
+            {
+                "group": "directions",
+                "input": "Forward",
+                "notation": "f"
+            },
+            {
+                "group": "directions",
+                "input": "Neutral",
+                "notation": "n"
+            },
+            {
+                "group": "directions",
+                "input": "Down",
+                "notation": "d"
+            },
+            {
+                "group": "directions",
+                "input": "Down Forward",
+                "notation": "df"
+            },
+            {
+                "group": "attacks",
+                "input": "Right Punch",
+                "notation": "2"
+            },
+            {
+                "group": "notations",
+                "input": "Followed By",
+                "notation": ">"
+            },
+            {
+                "group": "directions",
+                "input": "Forward",
+                "notation": "f"
+            },
+            {
+                "group": "directions",
+                "input": "Neutral",
+                "notation": "n"
+            },
+            {
+                "group": "directions",
+                "input": "Down",
+                "notation": "d"
+            },
+            {
+                "group": "directions",
+                "input": "Down Forward",
+                "notation": "df"
+            },
+            {
+                "group": "attacks",
+                "input": "Left Punch",
+                "notation": "1"
+            },
+            {
+                "group": "notations",
+                "input": "Followed By",
+                "notation": ">"
+            },
+            {
+                "group": "directions",
+                "input": "Down Forward",
+                "notation": "df"
+            },
+            {
+                "group": "attacks",
+                "input": "Left Punch",
+                "notation": "1"
+            },
+            {
+                "group": "notations",
+                "input": "Followed By",
+                "notation": ">"
+            },
+            {
+                "group": "directions",
+                "input": "Down Back",
+                "notation": "db"
+            },
+            {
+                "group": "notations",
+                "input": "Press Simultaneously",
+                "notation": "+"
+            },
+            {
+                "group": "attacks",
+                "input": "Right Punch",
+                "notation": "2"
+            },
+            {
+                "group": "attacks",
+                "input": "Right Kick",
+                "notation": "4"
+            },
+            {
+                "group": "notations",
+                "input": "Followed By",
+                "notation": ">"
+            },
+            {
+                "group": "directions",
+                "input": "Forward",
+                "notation": "f"
+            },
+            {
+                "group": "directions",
+                "input": "Forward",
+                "notation": "f"
+            },
+            {
+                "group": "directions",
+                "input": "Forward",
+                "notation": "f"
+            },
+            {
+                "group": "attacks",
+                "input": "Right Punch + Right Kick",
+                "notation": "2 + 4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Master Raven", 
+        "archetype": "", 
+        "game": "Tekken 7", 
+        "notations": {}, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Buzzsaw",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "d",
+                        "order": "1"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Down Forward",
+                        "notation": "df",
+                        "order": "2"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f",
+                        "order": "3"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Right Punch",
+                        "notation": "2",
+                        "order": "4"
+                    }
+                ],
+                "notation_string": "d, df, f, 2",
+                "zones": ["Low"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ] 
+    }
+]

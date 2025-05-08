@@ -1,0 +1,22 @@
+[
+    {"name": "Light Attack", "button_count": "1", "game": "Dragon Ball FighterZ", "game_shorthand": "L", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Medium Attack", "button_count": "1", "game": "Dragon Ball FighterZ", "game_shorthand": "M", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Heavy Attack", "button_count": "1", "game": "Dragon Ball FighterZ", "game_shorthand": "H", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Special Attack", "button_count": "1", "game": "Dragon Ball FighterZ", "game_shorthand": "S", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    }
+]

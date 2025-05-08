@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Lars Alexandersson", 
+        "archetype": "", 
+        "game": "Tekken 7", 
+        "notations": {
+            "SEN": "Silent Entry", 
+            "DEN": "Dynamic Entry"
+        }, 
+        "notations_group": "character",
+        "moves": [
+            {
+                "name": "Tesla Gravity",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down",
+                        "notation": "d"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Left Kick",
+                        "notation": "3"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Left Punch",
+                        "notation": "1"
+                    }
+                ],
+                "zones": ["Low", "High", "High"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Hollow Point to Silent Entry",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Down Back",
+                        "notation": "db"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Right Punch",
+                        "notation": "2"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward (hold)",
+                        "notation": "F"
+                    }
+                ],
+                "zones": ["Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            },
+            {
+                "name": "Red Sprite",
+                "inputs": [
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f"
+                    },
+                    {
+                        "group": "directions",
+                        "input": "Forward",
+                        "notation": "f"
+                    },
+                    {
+                        "group": "notations",
+                        "input": "Press Simultaneously",
+                        "notation": "+"
+                    },
+                    {
+                        "group": "attacks",
+                        "input": "Left Kick",
+                        "notation": "3"
+                    }
+                ],
+                "zones": ["Mid"],
+                "damage": null,
+                "category": "",
+                "type": "",
+                "startup_frames": null,
+                "active_frames": null,
+                "recovery_frames": null,
+                "frames_on_hit": null,
+                "frames_on_block": null,
+                "frames_on_counter_hit": null
+            }
+        ]
+    }
+]

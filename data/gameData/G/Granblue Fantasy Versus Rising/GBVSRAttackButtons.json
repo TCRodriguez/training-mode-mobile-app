@@ -1,0 +1,22 @@
+[
+    {"name": "Light Attack", "button_count": "1", "game": "Granblue Fantasy Versus Rising", "game_shorthand": "L", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Medium Attack", "button_count": "1", "game": "Granblue Fantasy Versus Rising", "game_shorthand": "M", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Heavy Attack", "button_count": "1", "game": "Granblue Fantasy Versus Rising", "game_shorthand": "H", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    },
+    {"name": "Unique Action", "button_count": "1", "game": "Granblue Fantasy Versus Rising", "game_shorthand": "U", "icon": "",
+        "device_mappings": [
+            { "device_name": "DualShock 4", "button_mapping": [""] }
+        ]
+    }
+]
