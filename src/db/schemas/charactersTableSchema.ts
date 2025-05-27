@@ -1,5 +1,7 @@
 import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 import { games } from "./gamesTableSchema";
+import { characterMoves } from "./characterMovesTableSchema";
+import { relations } from "drizzle-orm";
 
 export const characters = sqliteTable(
   'characters',
@@ -15,4 +17,12 @@ export const characters = sqliteTable(
     unq: unique('unique_game_character_pair').on(table.name, table.gameId)
   })
 );
+
+export const characterRelations = relations(characters, ({ one, many }) => ({
+  game: one(games, {
+    fields: [characters.gameId],
+    references: [games.id],
+  }),
+  characterMoves: many(characterMoves)
+}));
 

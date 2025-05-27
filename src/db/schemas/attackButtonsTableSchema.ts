@@ -1,5 +1,8 @@
 import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 import { games } from "./gamesTableSchema";
+import { relations } from "drizzle-orm";
+import { characterMoves } from "./characterMovesTableSchema";
+import { attackButtonCharacterMove } from "./attackButtonCharacterMovePivotTableSchema";
 
 export const attackButtons = sqliteTable(
   'attack_buttons',
@@ -17,3 +20,6 @@ export const attackButtons = sqliteTable(
   })
 );
 
+export const attackButtonsRelations = relations(attackButtons, ({ many }) => ({
+  attackButtonCharacterMove: many(attackButtonCharacterMove),
+}))

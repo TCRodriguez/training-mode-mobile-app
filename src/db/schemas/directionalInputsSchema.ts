@@ -1,4 +1,6 @@
 import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
+import { relations } from "drizzle-orm";
+import { characterMoveDirectionalInput } from "./characterMoveDirectionalInputPivotTableSchema";
 
 export const directionalInputs = sqliteTable(
   'directional_inputs',
@@ -15,3 +17,6 @@ export const directionalInputs = sqliteTable(
   })
 );
 
+export const directionalInputRelations = relations(directionalInputs, ({ many }) => ({
+  characterMoveDirectionalInput: many(characterMoveDirectionalInput)
+}))
