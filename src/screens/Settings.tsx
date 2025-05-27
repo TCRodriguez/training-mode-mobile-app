@@ -21,16 +21,72 @@ const SettingsScreen = () => {
   const fetchGames = async () => {
     const db = await deviceDBInit();
     try {
-      const results = await db.select().from(games);
+      // const results = await db.select().from(games);
     
-      const formattedGames = results.map((game) => {
-        // Return only the necessary fields, excluding created_at and updated_at
-        const { created_at, updated_at, ...rest } = game;
-        return rest;
-      });
+      // const formattedGames = results.map((game) => {
+      //   // Return only the necessary fields, excluding created_at and updated_at
+      //   const { created_at, updated_at, ...rest } = game;
+      //   return rest;
+      // });
     
-      console.log(formattedGames);
-      setGamesData(formattedGames);
+      // console.log(formattedGames);
+      // setGamesData(formattedGames);
+
+      // const results = await db.query.games.findMany({
+      //   where: (games, { eq }) => eq(games.id, 8), // Convenience condition to filter results
+      //   with: {
+      //     characters: true
+      //   }
+      // })
+      // const results = await db?.query.characters.findMany({
+      //   where: (characters, { eq }) => eq(characters.gameId, 8), // Convenience condition to filter results
+      //   with: {
+      //     characterMoves: true
+      //   }
+      // })
+      // const results = await db?.query.characterMoves.findFirst({
+      //   where: (characterMoves, { eq }) => eq(characterMoves.characterId, 240), // Convenience condition to filter results
+      //   with: {
+      //     game: true,
+      //     character: true,
+      //   },
+      // })
+
+      // const results = await db?.query.games.findFirst({
+      //   where: (games, { eq }) => eq(games.id, 8), // Convenience condition to filter results
+      //   with: {
+      //     characterMoves: {
+      //       where: (characterMoves, { eq }) => eq(characterMoves.id, 3756), // Convenience condition to filter results
+      //       with: {
+      //         character: true
+      //       }
+      //     },
+      //   },
+      // })
+
+      // attack buttons to character moves
+      // const results = await db?.query.characterMoves.findFirst({
+      //   where: (characterMoves, { eq }) => eq(characterMoves.characterId, 240), // Convenience condition to filter results
+      //   with: {
+      //     attackButtons: true
+      //   }
+      // })
+
+
+      // directional inputs to character moves
+      const results = await db?.query.characterMoves.findFirst({
+        where: (characterMoves, { eq }) => eq(characterMoves.id, 14), // Convenience condition to filter results
+        with: {
+          directionalInputs: true,
+          attackButtons: true
+        }
+      })
+      console.log(results);
+
+
+
+
+      console.log(JSON.stringify(results, null, 2));
     
     } catch (error) {
       console.error('Error fetching games:', error);
