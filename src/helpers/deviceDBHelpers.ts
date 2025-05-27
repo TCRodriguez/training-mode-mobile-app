@@ -8,6 +8,8 @@ import { openDatabaseSync } from 'expo-sqlite/next';
 import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
 import migrations from '../db/migrations/migrations';
 import { games } from '../db/schemas/gamesTableSchema';
+import { characters } from '../db/schemas/charactersTableSchema';
+import * as schema from '../db/schemas/schemas';
 
 const localDevDbName = process.env.EXPO_PUBLIC_LOCAL_DEV_DATABASE_NAME;
 const deviceDBName = process.env.EXPO_PUBLIC_DEVICE_DATABASE_NAME;
@@ -77,7 +79,7 @@ export const deviceDBInit = async () => {
   } else {
     console.log('Device database file exists, opening connection...');
     expoDb = openDatabaseSync(`${deviceDBName}.db`); // Ensure the name matches your copied file
-    db = drizzle(expoDb);
+    db = drizzle(expoDb, { schema });
 
     // TODO: Turn foreign key constraints on through PRAGMA here?
 
