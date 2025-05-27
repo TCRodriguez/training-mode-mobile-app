@@ -1,6 +1,7 @@
 import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 import { characterMoves } from "./characterMovesTableSchema";
 import { directionalInputs } from "./directionalInputsSchema";
+import { relations } from "drizzle-orm";
 
 export const characterMoveDirectionalInput = sqliteTable(
   'character_move_directional_input',
@@ -16,3 +17,14 @@ export const characterMoveDirectionalInput = sqliteTable(
     unq: unique('character_move_directional_input_order_set').on(table.characterMoveId, table.directionalInputId, table.orderInMove)
   })
 );
+
+export const characterMoveDirectionalInputRelations = relations(characterMoveDirectionalInput, ({ one }) => ({
+  characterMove: one(characterMoves, {
+    fields: [characterMoveDirectionalInput.characterMoveId],
+    references: [characterMoves.id]
+  }),
+  directionalInput: one(directionalInputs, {
+    fields: [characterMoveDirectionalInput.directionalInputId],
+    references: [directionalInputs.id]
+  }),
+}))
