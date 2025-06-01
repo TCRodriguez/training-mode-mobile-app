@@ -11,6 +11,7 @@ import { seedHitZones } from './seeders/seedHitZonesCLI.mjs';
 import { seedCharacterMoves } from './seeders/seedCharacterMovesCLI.mjs';
 import { checkIfDatabaseExists } from './utils.mjs';
 // import { seedMetadata } from './seeders/seedMetadataCLI.mjs';
+import { seedCharacterCombos } from './seeders/seedCharacterCombosCLI.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -61,6 +62,9 @@ export const seedDatabase = async (seeder = 'all') => {
     } else if (seeder === 'characterMoves') {
       console.log('Character Moves seeder running...');
       await seedCharacterMoves();
+    } else if(seeder === 'characterCombos') {
+      await seedCharacterCombos();
+
     } else {
       console.log('Invalid seeder argument. Please use one of the following: all, games, characters, directionalInputs, gameNotations, attackButtons');
     }

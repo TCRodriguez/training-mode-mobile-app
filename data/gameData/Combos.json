@@ -1,126 +1,152 @@
 [
     {
-        "character": "Armor King",
+        "name": "Test Combo",
+        "character": "King",
+        "game": "Tekken 8", 
         "inputs": [
             {
                 "group": "directions",
                 "input": "Forward",
-                "notation": "f"
+                "notation": "f",
+                "order_in_combo": "1"
             },
             {
                 "group": "directions",
                 "input": "Neutral",
-                "notation": "n"
+                "notation": "n",
+                "order_in_combo": "2"
             },
             {
                 "group": "directions",
                 "input": "Down",
-                "notation": "d"
+                "notation": "d",
+                "order_in_combo": "3"
             },
             {
                 "group": "directions",
                 "input": "Down Forward",
-                "notation": "df"
+                "notation": "df",
+                "order_in_combo": "4"
             },
             {
                 "group": "attacks",
                 "input": "Right Punch",
-                "notation": "2"
+                "notation": "2",
+                "order_in_combo": "5"
             },
             {
                 "group": "notations",
                 "input": "Followed By",
-                "notation": ">"
+                "notation": ">",
+                "order_in_combo": "6"
             },
             {
                 "group": "directions",
                 "input": "Forward",
-                "notation": "f"
+                "notation": "f",
+                "order_in_combo": "7"
             },
             {
                 "group": "directions",
                 "input": "Neutral",
-                "notation": "n"
+                "notation": "n",
+                "order_in_combo": "8"
             },
             {
                 "group": "directions",
                 "input": "Down",
-                "notation": "d"
+                "notation": "d",
+                "order_in_combo": "9"
             },
             {
                 "group": "directions",
                 "input": "Down Forward",
-                "notation": "df"
+                "notation": "df",
+                "order_in_combo": "10"
             },
             {
                 "group": "attacks",
                 "input": "Left Punch",
-                "notation": "1"
+                "notation": "1",
+                "order_in_combo": "11"
             },
             {
                 "group": "notations",
                 "input": "Followed By",
-                "notation": ">"
+                "notation": ">",
+                "order_in_combo": "12"
             },
             {
                 "group": "directions",
                 "input": "Down Forward",
-                "notation": "df"
+                "notation": "df",
+                "order_in_combo": "13"
             },
             {
                 "group": "attacks",
                 "input": "Left Punch",
-                "notation": "1"
+                "notation": "1",
+                "order_in_combo": "14"
             },
             {
                 "group": "notations",
                 "input": "Followed By",
-                "notation": ">"
+                "notation": ">",
+                "order_in_combo": "15"
             },
             {
                 "group": "directions",
                 "input": "Down Back",
-                "notation": "db"
+                "notation": "db",
+                "order_in_combo": "16"
             },
             {
                 "group": "notations",
                 "input": "Press Simultaneously",
-                "notation": "+"
+                "notation": "+",
+                "order_in_combo": "17"
             },
             {
                 "group": "attacks",
                 "input": "Right Punch",
-                "notation": "2"
+                "notation": "2",
+                "order_in_combo": "18"
             },
             {
                 "group": "attacks",
                 "input": "Right Kick",
-                "notation": "4"
+                "notation": "4",
+                "order_in_combo": "19"
             },
             {
                 "group": "notations",
                 "input": "Followed By",
-                "notation": ">"
+                "notation": ">",
+                "order_in_combo": "20"
             },
             {
                 "group": "directions",
                 "input": "Forward",
-                "notation": "f"
+                "notation": "f",
+                "order_in_combo": "21"
             },
             {
                 "group": "directions",
                 "input": "Forward",
-                "notation": "f"
+                "notation": "f",
+                "order_in_combo": "22"
             },
             {
                 "group": "directions",
                 "input": "Forward",
-                "notation": "f"
+                "notation": "f",
+                "order_in_combo": "23"
             },
             {
                 "group": "attacks",
                 "input": "Right Punch + Right Kick",
-                "notation": "2 + 4"
+                "notation": "2 + 4",
+                "order_in_combo": "24"
             }
         ]
     }

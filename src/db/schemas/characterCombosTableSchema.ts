@@ -2,6 +2,9 @@ import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 import { relations } from "drizzle-orm";
 import { games } from "./gamesTableSchema";
 import { characters } from "./charactersTableSchema";
+import { attackButtonCharacterCombo } from "./attackButtonCharacterComboPivotTableSchema";
+import { characterComboDirectionalInput } from "./characterComboDirectionalInputPivotTableSchema";
+import { characterComboGameNotation } from "./characterComboGameNotationPivotTableSchema";
 
 export const characterCombos = sqliteTable(
     'character_combos',
@@ -19,3 +22,20 @@ export const characterCombos = sqliteTable(
         unq: unique('unique_character_combo_name').on(table.name, table.characterId)
     })
 );
+
+export const characterComboRelations = relations(characterCombos, ({ one, many }) => ({
+    game: one(games, {
+        fields: [characterCombos.gameId],
+        references: [games.id]
+    }),
+    character: one(characters, {
+        fields: [characterCombos.characterId],
+        references: [characters.id]
+    }),
+    attackButtons: many(attackButtonCharacterCombo),
+    directionalInputs: many(characterComboDirectionalInput),
+    gameNotations: many(characterComboGameNotation)
+
+}));
+
+

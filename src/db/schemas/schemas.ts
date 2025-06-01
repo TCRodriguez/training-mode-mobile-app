@@ -7,3 +7,7 @@ export * from "./attackButtonsTableSchema";
 export * from "./attackButtonCharacterMovePivotTableSchema";
 export * from "./directionalInputsSchema";
 export * from "./characterMoveDirectionalInputPivotTableSchema";
+export * from "./characterCombosTableSchema";
+export * from "./characterComboDirectionalInputPivotTableSchema";
+export * from "./attackButtonCharacterComboPivotTableSchema";
+export * from "./characterComboGameNotationPivotTableSchema";
