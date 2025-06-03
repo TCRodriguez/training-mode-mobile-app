@@ -20,6 +20,10 @@ import m0015 from './20241104153416_create_character_move_hit_zone_pivot_table.s
 import m0016 from './20241109011214_create_metadata_table.sql';
 import m0017 from './20250109043409_create_changelog_table.sql';
 import m0018 from './20250204234657_add_character_id_unique_constraint_to_game_notations_table.sql';
+import m0019 from './20250530021948_create_character_combos_table.sql';
+import m0020 from './20250530223937_create_character_combo_directional_input_pivot_table.sql';
+import m0021 from './20250601170323_create_attack_button_character_combo_pivot_table.sql';
+import m0022 from './20250601171844_create_character_combo_game_notation_pivot_table.sql';
 
   export default {
     journal,
@@ -42,7 +46,11 @@ m0014,
 m0015,
 m0016,
 m0017,
-m0018
+m0018,
+m0019,
+m0020,
+m0021,
+m0022
     }
   }
   

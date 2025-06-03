@@ -2,6 +2,7 @@ import { integer, text, sqliteTable, unique } from "drizzle-orm/sqlite-core";
 import { games } from "./gamesTableSchema";
 import { characterMoves } from "./characterMovesTableSchema";
 import { relations } from "drizzle-orm";
+import { characterCombos } from "./characterCombosTableSchema";
 
 export const characters = sqliteTable(
   'characters',
@@ -23,6 +24,7 @@ export const characterRelations = relations(characters, ({ one, many }) => ({
     fields: [characters.gameId],
     references: [games.id],
   }),
-  characterMoves: many(characterMoves)
+  characterMoves: many(characterMoves),
+  characterCombos: many(characterCombos)
 }));
 

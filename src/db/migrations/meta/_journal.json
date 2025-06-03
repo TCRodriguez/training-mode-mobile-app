@@ -134,6 +134,34 @@
       "when": 1738712817347,
       "tag": "20250204234657_add_character_id_unique_constraint_to_game_notations_table",
       "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "6",
+      "when": 1748571588338,
+      "tag": "20250530021948_create_character_combos_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1748644777269,
+      "tag": "20250530223937_create_character_combo_directional_input_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "6",
+      "when": 1748797403413,
+      "tag": "20250601170323_create_attack_button_character_combo_pivot_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "6",
+      "when": 1748798324461,
+      "tag": "20250601171844_create_character_combo_game_notation_pivot_table",
+      "breakpoints": true
     }
   ]
 }
