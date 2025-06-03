@@ -38,12 +38,21 @@ const SettingsScreen = () => {
       //     characters: true
       //   }
       // })
+
       // const results = await db?.query.characters.findMany({
       //   where: (characters, { eq }) => eq(characters.gameId, 8), // Convenience condition to filter results
       //   with: {
-      //     characterMoves: true
+      //     // characterMoves: true,
+      //     characterCombos: {
+      //       with: {
+      //         gameNotations: true,
+      //         directionalInputs: true,
+      //         attackButtons: true,
+      //       }
+      //     },
       //   }
       // })
+
       // const results = await db?.query.characterMoves.findFirst({
       //   where: (characterMoves, { eq }) => eq(characterMoves.characterId, 240), // Convenience condition to filter results
       //   with: {
@@ -74,15 +83,32 @@ const SettingsScreen = () => {
 
 
       // directional inputs to character moves
-      const results = await db?.query.characterMoves.findFirst({
-        where: (characterMoves, { eq }) => eq(characterMoves.id, 14), // Convenience condition to filter results
-        with: {
-          directionalInputs: true,
-          attackButtons: true
-        }
-      })
-      console.log(results);
+      // const results = await db?.query.characterMoves.findFirst({
+      //   where: (characterMoves, { eq }) => eq(characterMoves.id, 14), // Convenience condition to filter results
+      //   with: {
+      //     directionalInputs: true,
+      //     attackButtons: true
+      //   }
+      // })
+      // console.log(results);
 
+      // Combos
+      // const results = await db?.query.characterCombos.findMany({
+      //   where: (characterCombos, { eq }) => eq(characterCombos.gameId, 8), // Convenience condition to filter results
+      //   with: {
+      //     // attackButtons: true,
+      //     // directionalInputs: true,
+      //     gameNotations: true,
+      //     character: true,
+      //     game: true,
+      //   }
+      // });
+      const results = await db?.query.characters.findFirst({
+        where: (characters, { eq }) => eq(characters.id, 222), // Convenience condition to filter results
+        with: {
+          characterCombos: true
+        }
+      });
 
 
 
